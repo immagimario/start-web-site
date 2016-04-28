@@ -1,0 +1,21 @@
+- $pathSlimSite = "../assets/slim/"
+
+== Slim::Template.new($pathSlimSite + '_variables.slim').render
+
+  /! jQuery
+ 	script src="https://code.jquery.com/jquery-1.12.2.min.js"
+	
+
+
+	/! Plugin js
+
+	/! js placeholder HTML5 Placeholder jQuery Plugin
+	script src="#{$sitejsv}placeholders.min.js"
+
+	// zurb foundation load plugin
+	== Slim::Template.new($pathSlimSite + 'base/_foundation.slim').render
+
+
+
+	/! Theme js
+	link rel="stylesheet" href="#{$sitejst}main.js"

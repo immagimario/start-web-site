@@ -1,0 +1,15 @@
+- $pathSlimSite = "../assets/slim/"
+
+== Slim::Template.new($pathSlimSite + '_variables.slim').render
+
+	/! A modern, HTML5-ready alternative to CSS resets
+	link rel="stylesheet" href="#{$sitecss}normalize.css"
+
+	/! Plugin css
+
+	
+	/! Theme style
+	link rel="stylesheet" href="#{$sitecss}main.css"
+
+		/[if IE 9]
+		link  href="css/ie9.css"  rel="stylesheet" type="text/css"

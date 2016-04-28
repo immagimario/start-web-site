@@ -1,0 +1,12 @@
+# Frontend folders #
+###################
+
+frontend/bower_components
+frontend/node_modules
+
+
+# Frontend fils #
+###################
+
+frontend/bower_components/*.*
+frontend/node_modules/*.*

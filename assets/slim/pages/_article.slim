@@ -1,0 +1,31 @@
+//
+// Example of design and assembling of specific page
+//
+
+- $pathSlimSite = "../assets/slim/"
+
+== Slim::Template.new($pathSlimSite + '_variables.slim').render
+
+html.no-js lang="" itemscope itemtype="http://schema.org/Article"
+	head
+		title
+			| Title of site
+		meta name="description" content=""
+		meta name="keywords" content=""
+
+		== Slim::Template.new($pathSlimSite + 'base/_tag_head_meta.slim').render
+		== Slim::Template.new($pathSlimSite + 'base/_tag_head_meta_social.slim').render
+		== Slim::Template.new($pathSlimSite + 'base/_tag_head_meta_css.slim').render
+		== Slim::Template.new($pathSlimSite + 'base/_tag_head_meta_js.slim').render
+
+	/![if IE 9 ]
+		body.ie9.homepage-template
+	/! [if (gt IE 9)|!(IE)]
+		body.homepage-template
+			
+			== Slim::Template.new($pathSlimSite + 'base/_browserupdate.slim').render
+
+			header
+			main role="main"
+
+			footer role="main-footer"

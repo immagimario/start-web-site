@@ -1,0 +1,29 @@
+/**
+ * Assistive text
+ */
+.screen-reader-text {
+    position: absolute;
+    font-size: 0;
+    opacity: 0;
+    z-index: -1;
+}
+ 
+.screen-reader-text:active,
+.screen-reader-text:focus {
+    font-size: inherit;
+    opacity: 1;
+    z-index: 999;
+}
+
+/**
+ * Skip Link
+ */
+.skip-link {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.skip-link:focus {
+    position: relative;
+}

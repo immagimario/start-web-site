@@ -4,10 +4,13 @@ module.exports = {
 
       // Add a (or multiple) Sass import path.
       loadPath: [
+        // import framework
         '<%= project.foundation %>/',
         '<%= project.bourbon %>/',
         '<%= project.susy %>/',
         '<%= project.breakpoint %>/'
+
+        // import theme
       ],
 
       // different write mode CSS output
@@ -24,7 +27,7 @@ module.exports = {
       sourcemap: 'auto',
     },
     files: {
-      '<%= project.stylesheets %>/style.dev.css' : '<%= project.scss %>/style.scss',
+      '<%= project.stylesheets %>/main.css' : '<%= project.scss %>/main.scss',
       //'<%= project.stylesheets %>/jquery.selectbox.css' : '<%= project.scss %>/jquery.selectbox.scss',
       //'<%= project.stylesheets %>/font-awesome.css' : '<%= project.bower %>/font-awesome/scss/font-awesome.scss',
       //'<%= project.stylesheets %>/slick-theme.css' : '<%= project.bower %>/slick-carousel/slick/slick-theme.scss',

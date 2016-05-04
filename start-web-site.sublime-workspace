@@ -323,13 +323,6 @@
 	},
 	"buffers":
 	[
-		{
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -440,14 +433,26 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/mario.montalto/Progetti/start-web-site"
+		"/Users/mario.montalto/Progetti/start-web-site",
+		"/Users/mario.montalto/Progetti/start-web-site/assets",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/sass",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/sass/base",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/slim",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/base",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/pages"
 	],
 	"file_history":
 	[
+		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/pages/_homepage.slim",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/pages/_blog.slim",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/sass/base/_screen-reader.scss",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/base/_screen-reader.slim",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/pages/_article.slim",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/.editorconfig",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/index.slim",
 		"/Users/mario.montalto/Progetti/start-web-site/start-web-site.sublime-project",
 		"/Users/mario.montalto/Progetti/start-web-site/assets/sass/helpers/_helpers.scss",
 		"/Users/mario.montalto/Progetti/start-web-site/frontend/bower_components/html5-boilerplate/src/css/main.css",
-		"/Users/mario.montalto/Progetti/start-web-site/assets/index.slim",
 		"/Users/mario.montalto/Progetti/scuola-cucina/slci-bucket/wordpress/wp-content/themes/slci-mobile/assets/slim/template-parts/footer/_footer_js.slim",
 		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/base/_footer_js.slim",
 		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/base/_browserupdate.slim",
@@ -458,10 +463,7 @@
 		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/base/_tag_head_meta_js.slim",
 		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/base/_tag_head_meta_social.slim",
 		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/base/_variables.slim",
-		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/pages/_homepage.slim",
 		"/Users/mario.montalto/Progetti/start-web-site/.gitignore",
-		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/pages/_blog.slim",
-		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/pages/_article.slim",
 		"/Users/mario.montalto/Progetti/start-web-site/assets/sass/main.scss",
 		"/Users/mario.montalto/Progetti/scuola-cucina/slci-bucket/wordpress/wp-content/themes/slci-mobile/assets/slim/template-parts/head/_browserupdate.slim",
 		"/Users/mario.montalto/Progetti/scuola-cucina/slci-bucket/wordpress/wp-content/themes/slci-mobile/assets/slim/template-parts/head/_icons_browser.slim",
@@ -568,10 +570,7 @@
 		"/Users/mario.montalto/Progetti/naba/css/ie9-tool-corso.css",
 		"/Users/mario.montalto/Progetti/naba/css/ie9-spalla-simple-list.css",
 		"/Users/mario.montalto/Progetti/naba/css/ie9-spalla-editoriale.css",
-		"/Users/mario.montalto/Progetti/naba/css/ie9-serp.css",
-		"/Users/mario.montalto/Progetti/naba/css/ie9-pager.css",
-		"/Users/mario.montalto/Progetti/naba/css/ie9-menu.css",
-		"/Users/mario.montalto/Progetti/naba/css/ie9-home.css"
+		"/Users/mario.montalto/Progetti/naba/css/ie9-serp.css"
 	],
 	"find":
 	{
@@ -921,36 +920,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],

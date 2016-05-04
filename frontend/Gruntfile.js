@@ -24,22 +24,30 @@ module.exports = function(grunt) {
                 typography: ['<%= project.scss %>/typography'],
                 // mixin e function
                 util: ['<%= project.scss %>/util'],
-                // sass prodotto da altri
-                vendor: ['<%= project.scss %>/vendor'],
+
+                // theme
                 stylesheets: ['<%= project.assets %>/css'],
                 javascripts: ['<%= project.assets %>/js'],
                 jssource: ['<%= project.javascripts %>/source'],
-                jsvendor: ['<%= project.javascripts %>/vendor'],
                 slim: ['<%= project.assets %>/slim'],
-                html: ['<%= project.assets %>/html'],
+                statics: ['<%= project.assets %>/statics'],
+
+                // vendor
+                vendor: ['<%= project.scss %>/vendor'],
+                jsvendor: ['<%= project.javascripts %>/vendor'],
                 styleguide: ['<%= project.assets %>/styleguide'],
 
-                bower: ['bower_components'], // bower name folder
-                // folder plugin
+                // bower folder
+                bower: ['bower_components'],
+                
+                // folder framework
                 foundation: ['<%= project.bower %>/foundation-sites/scss/'],
                 bourbon: ['<%= project.bower %>/bourbon/app/assets/stylesheets/'],
                 susy: ['<%= project.bower %>/susy/sass/'],
-                breakpoint: ['<%= project.bower %>/compass-breakpoint/stylesheets/'],
+                breakpoint: ['<%= project.bower %>/breakpoint-sass/stylesheets/'],
+
+                // folder theme
+                base: ['<%= project.scss %>/base/'], 
             },
       },
 

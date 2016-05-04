@@ -92,16 +92,6 @@ $ npm install grunt-contrib-watch --save-dev
 `
 
 
-#### Browsersync 
-> [ [link plugin](https://www.browsersync.io/) ] | With each web page, device and browser, testing time grows exponentially. From live reloads to URL pushing, form replication to click mirroring, Browsersync cuts out repetitive manual tasks. It’s like an extra pair of hands. Customise an array of sync settings from the UI or command line to create a personalised test environment. Need more control? Browsersync is easily integrated with your web platform, build tools, and other Node.js projects.
->
-> We have an official Plugin for Grunt that makes it easy to incorporate Browsersync into your development workflow. Below are a few examples of common configurations to get you started - use them as a jump-start but don't forget you can also use any of the other Browsersync options as well.
-
-`
-npm install grunt-browser-sync --save-dev
-`
-
-
 #### grunt-contrib-sass
 > [ [link plugin](https://github.com/gruntjs/grunt-contrib-sass) ] | Compile Sass to CSS. (This task uses libsass which is a Sass compiler in C++. In contrast to the original Ruby compiler, this one is much faster, but is missing some features, though improving quickly. It also doesn't support Compass. Check out grunt-contrib-sass if you prefer something more stable, but slower.)
 
@@ -114,9 +104,11 @@ $ npm install grunt-contrib-sass --save-dev
 `
 
 #### grunt-slim
-> https://github.com/matsumos/grunt-slim | Compile Slim to HTML
+> [ [link plugin](https://github.com/matsumos/grunt-slim) ] | Compile Slim to HTML
 
-> E' fondametale installare anche la gemma dedicata di slim
+> It 'important to install the ruby gem dedicated to slim-lang.
+> 
+> **The code entered in the import file must be iddented to zero**
 
 `
 $ gem install slim

@@ -4,9 +4,10 @@
 
 - $pathSlimSite = "../assets/slim/"
 
+
 == Slim::Template.new($pathSlimSite + '_variables.slim').render
 
-html.no-js lang="" itemscope itemtype="http://schema.org/Article"
+html.no-js lang="" itemscope="" itemtype="http://schema.org/Article"
 	head
 		title
 			| Title of site
@@ -18,14 +19,31 @@ html.no-js lang="" itemscope itemtype="http://schema.org/Article"
 		== Slim::Template.new($pathSlimSite + 'base/_tag_head_meta_css.slim').render
 		== Slim::Template.new($pathSlimSite + 'base/_tag_head_meta_js.slim').render
 
-	/![if IE 9 ]
-		body.ie9.homepage-template
-	/! [if (gt IE 9)|!(IE)]
-		body.homepage-template
-			
-			== Slim::Template.new($pathSlimSite + 'base/_browserupdate.slim').render
 
-			header
-			main role="main"
+	// is fundamental that tabulation be aligned with under partial imported
+	// class variable assigned to the body tag
+	- $pagesClass	= "blog"
+	//
+	// add the condition for Internet Explorer 9
+	// together with .ie9 class for eventually fixes
+	//
+	/[if IE 9 ]
+		<body class="#{$pagesClass}#{'-pages'} ie9">
 
-			footer role="main-footer"
+	/![if (gt IE 9)|!(IE)]><!
+	body class="#{$pagesClass}#{'-pages'}"
+		/!<![endif]
+				
+		== Slim::Template.new($pathSlimSite + 'base/_screen-reader.slim').render
+		
+		== Slim::Template.new($pathSlimSite + 'base/_browserupdate.slim').render
+
+		header
+
+		main role="main"
+
+		footer role="main-footer"
+
+
+		// js
+		== Slim::Template.new($pathSlimSite + 'base/_footer_js.slim').render

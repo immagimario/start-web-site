@@ -1,31 +1,54 @@
 /*
-Error: File to import not found or unreadable: base.
-       Load paths:
-         /Users/mario.montalto/Progetti/start-web-site/frontend/bower_components/foundation-sites/scss
-         /Users/mario.montalto/Progetti/start-web-site/frontend/bower_components/bourbon/app/assets/stylesheets
-         /Users/mario.montalto/Progetti/start-web-site/frontend/bower_components/susy/sass
-         /Users/mario.montalto/Progetti/start-web-site/frontend/bower_components/breakpoint-sass/stylesheets
-        on line 36 of ../assets/scss/main.scss
+Error: Import directives may not be used within control directives or mixins.
+        on line 6 of ../assets/scss/framework.scss
+        from line 7 of ../assets/scss/main.scss
 
-31: 
-32: 
-33: /* ==========================================================================
-34:    Base styles
-35:    ========================================================================== *\/
-36: @import "base";
-37: 
-38: 
-39: 
-40: 
-41: 
+1: 
+2: @mixin framework($foundation: false, $bootstrap: false, $bourbon: false, $susy: false, $breakpoint: false) {
+3: 
+4: 	@if ($foundation == true) {
+5: 		// foundation import framework
+6: 		@import "foundation";
+7: 		@include foundation-global-styles;
+8: 
+9: 		@include foundation-grid;
+10:   	@include foundation-typography;
+11:   	@include foundation-forms;
 
 Backtrace:
-../assets/scss/main.scss:36
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/import_node.rb:67:in `rescue in import'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/import_node.rb:45:in `import'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/import_node.rb:28:in `imported_file'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/import_node.rb:37:in `css_import?'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:313:in `visit_import'
+../assets/scss/framework.scss:6
+../assets/scss/main.scss:7
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/check_nesting.rb:15:in `visit'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `map'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/check_nesting.rb:51:in `visit_children'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:67:in `visit_if'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/check_nesting.rb:17:in `visit'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `map'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/check_nesting.rb:51:in `visit_children'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/check_nesting.rb:75:in `visit_mixindef'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/check_nesting.rb:17:in `visit'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `map'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/check_nesting.rb:51:in `visit_children'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/check_nesting.rb:59:in `visit_root'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/check_nesting.rb:17:in `visit'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:24:in `visit'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:327:in `block in visit_import'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/stack.rb:88:in `block in with_import'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/stack.rb:88:in `with_import'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:325:in `visit_import'
 /usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
 /usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
 /usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
@@ -58,4 +81,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: File to import not found or unreadable: base.\A        Load paths:\A          /Users/mario.montalto/Progetti/start-web-site/frontend/bower_components/foundation-sites/scss\A          /Users/mario.montalto/Progetti/start-web-site/frontend/bower_components/bourbon/app/assets/stylesheets\A          /Users/mario.montalto/Progetti/start-web-site/frontend/bower_components/susy/sass\A          /Users/mario.montalto/Progetti/start-web-site/frontend/bower_components/breakpoint-sass/stylesheets\A         on line 36 of ../assets/scss/main.scss\A \A 31: \A 32: \A 33: /* ==========================================================================\A 34:    Base styles\A 35:    ========================================================================== */\A 36: @import \"base\";\A 37: \A 38: \A 39: \A 40: \A 41: "; }
+  content: "Error: Import directives may not be used within control directives or mixins.\A         on line 6 of ../assets/scss/framework.scss\A         from line 7 of ../assets/scss/main.scss\A \A 1: \A 2: @mixin framework($foundation: false, $bootstrap: false, $bourbon: false, $susy: false, $breakpoint: false) {\A 3: \A 4: 	@if ($foundation == true) {\A 5: 		// foundation import framework\A 6: 		@import \"foundation\";\A 7: 		@include foundation-global-styles;\A 8: \A 9: 		@include foundation-grid;\A 10:   	@include foundation-typography;\A 11:   	@include foundation-forms;"; }

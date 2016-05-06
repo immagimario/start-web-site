@@ -323,6 +323,126 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "frontend/Gruntfile.js",
+			"settings":
+			{
+				"buffer_size": 2725,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "frontend/grunt/sass.js",
+			"settings":
+			{
+				"buffer_size": 2697,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/scss/main.scss",
+			"settings":
+			{
+				"buffer_size": 1473,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/scss/framework.scss",
+			"settings":
+			{
+				"buffer_size": 3737,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "frontend/bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss",
+			"settings":
+			{
+				"buffer_size": 1486,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "frontend/bower_components/foundation-sites/scss/foundation.scss",
+			"settings":
+			{
+				"buffer_size": 2734,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/scss/base/base.scss",
+			"settings":
+			{
+				"buffer_size": 63,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/scss/components/components.scss",
+			"settings":
+			{
+				"buffer_size": 136,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/scss/helpers/helpers.scss",
+			"settings":
+			{
+				"buffer_size": 76,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/scss/layout/layout.scss",
+			"settings":
+			{
+				"buffer_size": 35,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/scss/molecules/molecules.scss",
+			"settings":
+			{
+				"buffer_size": 150,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/scss/organism/organism.scss",
+			"settings":
+			{
+				"buffer_size": 113,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/scss/pages/pages.scss",
+			"settings":
+			{
+				"buffer_size": 49,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/scss/themes/themes.scss",
+			"settings":
+			{
+				"buffer_size": 49,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/scss/vendors/vendors.scss",
+			"settings":
+			{
+				"buffer_size": 25,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -435,45 +555,81 @@
 	[
 		"/Users/mario.montalto/Progetti/start-web-site",
 		"/Users/mario.montalto/Progetti/start-web-site/assets",
-		"/Users/mario.montalto/Progetti/start-web-site/assets/sass",
-		"/Users/mario.montalto/Progetti/start-web-site/assets/sass/base",
-		"/Users/mario.montalto/Progetti/start-web-site/assets/slim",
-		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/base",
-		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/pages"
+		"/Users/mario.montalto/Progetti/start-web-site/assets/css",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/scss",
+		"/Users/mario.montalto/Progetti/start-web-site/frontend",
+		"/Users/mario.montalto/Progetti/start-web-site/frontend/bower_components",
+		"/Users/mario.montalto/Progetti/start-web-site/frontend/bower_components/bootstrap-sass",
+		"/Users/mario.montalto/Progetti/start-web-site/frontend/bower_components/bootstrap-sass/assets",
+		"/Users/mario.montalto/Progetti/start-web-site/frontend/bower_components/bootstrap-sass/assets/stylesheets",
+		"/Users/mario.montalto/Progetti/start-web-site/frontend/bower_components/foundation-sites",
+		"/Users/mario.montalto/Progetti/start-web-site/frontend/bower_components/foundation-sites/scss"
 	],
 	"file_history":
 	[
+		"/Users/mario.montalto/Progetti/start-web-site/assets/css/main.css",
+		"/Users/mario.montalto/Progetti/start-web-site/frontend/bower_components/foundation-sites/scss/_global.scss",
+		"/Users/mario.montalto/Progetti/start-web-site/frontend/bower_components/foundation-sites/scss/util/_mixins.scss",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/scss/vendors/vendors.scss",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/scss/vendors/_foundation.scss",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/scss/base/_typography.scss",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/scss/base/_screen-reader.scss",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/scss/base/_reset.scss",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/scss/base/base.scss",
 		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/pages/_homepage.slim",
 		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/pages/_blog.slim",
-		"/Users/mario.montalto/Progetti/start-web-site/assets/sass/base/_screen-reader.scss",
-		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/base/_screen-reader.slim",
 		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/pages/_article.slim",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/statics/pages/_article.html",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/statics/index.html",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/statics/pages/_blog.html",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/base/_tag_head_meta_css.slim",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/base/_body_class.slim",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/base/_browserupdate.slim",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/base/_screen-reader.slim",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/statics/templates/_homepage.html",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/statics/templates/_blog.html",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/pages/_body_class.slim",
+		"/Users/mario.montalto/Progetti/naba/widget-spalla-download-link.php",
+		"/Users/mario.montalto/Progetti/scuola-cucina/slci-bucket/wordpress/wp-content/themes/slci-mobile/assets/slim/index.slim",
+		"/Users/mario.montalto/Progetti/scuola-cucina/slci-bucket/wordpress/wp-content/themes/slci-mobile/assets/slim/template-parts/head/_head.slim",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/_variables.slim",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/base/_tag_head_meta_icons.slim",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/base/_foundation.slim",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/base/_footer_js.slim",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/base/_tag_head_meta_js.slim",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/scss/main.scss",
+		"/Users/mario.montalto/Progetti/start-web-site/frontend/Gruntfile.js",
+		"/Users/mario.montalto/Progetti/start-web-site/frontend/grunt/watch.js",
+		"/Users/mario.montalto/Progetti/scuola-cucina/slci-bucket/wordpress/wp-content/themes/slci-mobile/frontend/grunt/watch.js",
+		"/Users/mario.montalto/Progetti/start-web-site/frontend/grunt/browsersync.js",
+		"/Users/mario.montalto/Progetti/scuola-cucina/slci-bucket/wordpress/wp-content/themes/slci-mobile/assets/slim/footer.slim",
+		"/Users/mario.montalto/Progetti/scuola-cucina/slci-bucket/wordpress/wp-content/themes/slci-mobile/assets/slim/template-parts/footer/_footer_js.slim",
+		"/Users/mario.montalto/Progetti/start-web-site/frontend/grunt/slim.js",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/index.slim",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/base/_tag_head_meta.slim",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/base/_tag_head_meta_social.slim",
+		"/Users/mario.montalto/Progetti/scuola-cucina/slci-bucket/wordpress/wp-content/themes/slci-mobile/assets/scss/style.scss",
+		"/Users/mario.montalto/Progetti/start-web-site/frontend/grunt/aliases.js",
+		"/Users/mario.montalto/Progetti/start-web-site/frontend/grunt/sass.js",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/templates/_blog.slim",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/base/_variables.slim",
+		"/Users/mario.montalto/Progetti/start-web-site/frontend/bower_components/foundation-sites/scss/components/_button-group.scss",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/html",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/sass/base/_screen-reader.scss",
 		"/Users/mario.montalto/Progetti/start-web-site/assets/.editorconfig",
 		"/Users/mario.montalto/Progetti/start-web-site/assets/index.slim",
 		"/Users/mario.montalto/Progetti/start-web-site/start-web-site.sublime-project",
 		"/Users/mario.montalto/Progetti/start-web-site/assets/sass/helpers/_helpers.scss",
 		"/Users/mario.montalto/Progetti/start-web-site/frontend/bower_components/html5-boilerplate/src/css/main.css",
-		"/Users/mario.montalto/Progetti/scuola-cucina/slci-bucket/wordpress/wp-content/themes/slci-mobile/assets/slim/template-parts/footer/_footer_js.slim",
-		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/base/_footer_js.slim",
-		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/base/_browserupdate.slim",
-		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/base/_foundation.slim",
-		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/base/_tag_head_meta.slim",
-		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/base/_tag_head_meta_css.slim",
-		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/base/_tag_head_meta_icons.slim",
-		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/base/_tag_head_meta_js.slim",
-		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/base/_tag_head_meta_social.slim",
-		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/base/_variables.slim",
 		"/Users/mario.montalto/Progetti/start-web-site/.gitignore",
 		"/Users/mario.montalto/Progetti/start-web-site/assets/sass/main.scss",
 		"/Users/mario.montalto/Progetti/scuola-cucina/slci-bucket/wordpress/wp-content/themes/slci-mobile/assets/slim/template-parts/head/_browserupdate.slim",
 		"/Users/mario.montalto/Progetti/scuola-cucina/slci-bucket/wordpress/wp-content/themes/slci-mobile/assets/slim/template-parts/head/_icons_browser.slim",
-		"/Users/mario.montalto/Progetti/scuola-cucina/slci-bucket/wordpress/wp-content/themes/slci-mobile/assets/slim/template-parts/head/_head.slim",
 		"/Users/mario.montalto/Progetti/scuola-cucina/slci-bucket/wordpress/wp-content/themes/slci-mobile/assets/slim/template-parts/head/_main_menu.slim",
 		"/Users/mario.montalto/Progetti/scuola-cucina/slci-bucket/wordpress/wp-content/themes/slci-mobile/assets/slim/template-parts/head/_top_bar.slim",
 		"/Users/mario.montalto/Progetti/scuola-cucina/slci-bucket/wordpress/wp-content/themes/slci-mobile/assets/slim/template-parts/head/_user_registrato.slim",
 		"/Users/mario.montalto/Progetti/start-web-site/frontend/bower_components/html5-boilerplate/src/doc/extend.md",
 		"/Users/mario.montalto/Progetti/enerzona-omega3/frontend/slim/_head.slim",
-		"/Users/mario.montalto/Progetti/scuola-cucina/slci-bucket/wordpress/wp-content/themes/slci-mobile/assets/slim/index.slim",
 		"/Users/mario.montalto/Progetti/scuola-cucina/slci-bucket/wordpress/wp-content/themes/slci-mobile/assets/slim/variables.slim",
 		"/Users/mario.montalto/Progetti/enerzona-omega3/frontend/slim/articolo_video.slim",
 		"/Users/mario.montalto/Progetti/start-web-site/assets/sass/normalize.scss",
@@ -515,7 +671,6 @@
 		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/organisms/_article.slim",
 		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/organisms/_comments.slim",
 		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/organisms/_sections.slim",
-		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/templates/_blog.slim",
 		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/templates/_article.slim",
 		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/organisms/_templates.slim",
 		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/molecules/_components.slim",
@@ -539,48 +694,20 @@
 		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/atoms/_text_headings.slim",
 		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/atoms/_visibility.slim",
 		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/atoms/_animations.slim",
-		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/atoms/_fonts.slim",
-		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/atoms/_colors.slim",
-		"/Users/mario.montalto/Progetti/styleguide/grunt/watch.js",
-		"/Users/mario.montalto/Progetti/styleguide/Gruntfile.js",
-		"/Users/mario.montalto/Progetti/styleguide/grunt/aliases.js",
-		"/Users/mario.montalto/Progetti/styleguide/grunt/sass.js",
-		"/Users/mario.montalto/Progetti/scuola-cucina/slci-bucket/wordpress/wp-content/themes/slci-mobile/frontend/grunt/watch.js",
-		"/Users/mario.montalto/Progetti/scuola-cucina/slci-bucket/wordpress/wp-content/themes/slci-mobile/frontend/grunt/sass.js",
-		"/Users/mario.montalto/Progetti/scuola-cucina/slci-bucket/wordpress/wp-content/themes/slci-mobile/frontend/grunt/aliases.js",
-		"/Users/mario.montalto/Progetti/scuola-cucina/slci-bucket/wordpress/wp-content/themes/slci-mobile/frontend/Gruntfile.js",
-		"/Users/mario.montalto/Progetti/scuola-cucina/gruntfile.js",
-		"/Users/mario.montalto/Progetti/styleguide/package.json",
-		"/Users/mario.montalto/Progetti/naba/css/ie9.css",
-		"/Users/mario.montalto/Progetti/naba/scss/ie9-trapezio.scss",
-		"/Users/mario.montalto/Progetti/naba/scss/ie9-tool-corso.scss",
-		"/Users/mario.montalto/Progetti/naba/scss/ie9-spalla-simple-list.scss",
-		"/Users/mario.montalto/Progetti/naba/scss/ie9-spalla-editoriale.scss",
-		"/Users/mario.montalto/Progetti/naba/scss/ie9-serp.scss",
-		"/Users/mario.montalto/Progetti/naba/scss/ie9-pager.scss",
-		"/Users/mario.montalto/Progetti/naba/scss/ie9-menu.scss",
-		"/Users/mario.montalto/Progetti/naba/scss/ie9-home.scss",
-		"/Users/mario.montalto/Progetti/naba/scss/ie9-header.scss",
-		"/Users/mario.montalto/Progetti/naba/scss/ie9-form.scss",
-		"/Users/mario.montalto/Progetti/naba/scss/ie9-corso-prodotto.scss",
-		"/Users/mario.montalto/Progetti/naba/scss/ie9-content-full-width.scss",
-		"/Users/mario.montalto/Progetti/naba/scss/ie9-calendario.scss",
-		"/Users/mario.montalto/Progetti/naba/scss/ie9-aggregatore.scss",
-		"/Users/mario.montalto/Progetti/naba/css/ie9-trapezio.css",
-		"/Users/mario.montalto/Progetti/naba/css/ie9-tool-corso.css",
-		"/Users/mario.montalto/Progetti/naba/css/ie9-spalla-simple-list.css",
-		"/Users/mario.montalto/Progetti/naba/css/ie9-spalla-editoriale.css",
-		"/Users/mario.montalto/Progetti/naba/css/ie9-serp.css"
+		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/atoms/_fonts.slim"
 	],
 	"find":
 	{
-		"height": 25.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
 		"height": 93.0,
 		"where_history":
 		[
+			"/Users/mario.montalto/Progetti/start-web-site/frontend/bower_components/foundation-sites/scss",
+			"/Users/mario.montalto/Progetti/start-web-site/assets/slim/base",
+			"/Users/mario.montalto/Progetti/start-web-site/",
 			"/Users/mario.montalto/Progetti/start-web-site/frontend/bower_components/html5-boilerplate",
 			"/Users/mario.montalto/Progetti/naba/scss",
 			"/Users/mario.montalto/Progetti/naba/include",
@@ -705,10 +832,7 @@
 			"/Users/mario.montalto/Progetti/scuola-cucina/slci-bucket/wordpress/wp-content/themes/slci-d/assets/slim",
 			"/Users/mario.montalto/Progetti/scuola-cucina/slci-bucket/wordpress/wp-content/themes/slci-mobile/assets/scss",
 			"/Users/mario.montalto/Progetti/scuola-cucina/slci-bucket/wordpress/wp-content/themes/slci-d/assets/scss",
-			"/Users/mario.montalto/Progetti/scuola-cucina/slci-bucket/wordpress/wp-content/themes/slci-d/assets/slim",
-			"/Users/mario.montalto/Progetti/scuola-cucina/slci-bucket/wordpress/wp-content/themes/slci-d/assets/scss/",
-			"/Users/mario.montalto/Progetti/scuola-cucina/slci-bucket/wordpress/wp-content/themes/slci-d/assets/slim/",
-			"/Users/mario.montalto/Progetti/scuola-cucina/slci-bucket/wordpress/wp-content/themes/slci-mobile/assets/slim/template-parts/"
+			"/Users/mario.montalto/Progetti/scuola-cucina/slci-bucket/wordpress/wp-content/themes/slci-d/assets/slim"
 		]
 	},
 	"find_state":
@@ -716,6 +840,47 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"false",
+			"$",
+			"$global-flexbox",
+			"//@i",
+			"components",
+			"['<%=",
+			"%>/'",
+			":",
+			"components",
+			"@import \"_",
+			"components",
+			"\"_",
+			"components",
+			"\"_",
+			"components",
+			"\"_",
+			"'<%= project",
+			"components",
+			"base",
+			" \n		",
+			"article-template",
+			"$pagesClassCommon",
+			" + ",
+			"#{(",
+			"pagesClass",
+			"\"-pages\"",
+			"pagesClass",
+			".#{",
+			"'",
+			"{'.'",
+			"('.'",
+			"(",
+			"$pagesClass",
+			"homepage",
+			"+ $assets",
+			"html",
+			"- $pathSlimSite = \"../assets/slim/base/\"",
+			"_variables.slim",
+			"- $pathSlimSite = \"../assets/slim/\"",
+			"style.dev.css",
+			"scss",
 			"assets/",
 			"#{$pathTheme}assets/js/vendor/",
 			"css/",
@@ -802,48 +967,7 @@
 			" - ",
 			"text-editor",
 			"span",
-			"Sottotiolo",
-			"Apparendo",
-			"data",
-			"date",
-			". ",
-			"lunghezza",
-			"Titolo di massimo 2",
-			"come un ",
-			"apparendo",
-			"22 gennaio - h 10",
-			".wp-main-container",
-			"padding-homepage",
-			"background-image:",
-			"background-image: url",
-			"0px",
-			"mask",
-			"\n\n		</div>\n\n		</div>",
-			"mask\">\n			\n		</div>",
-			"<div class=\"text-editor\">",
-			"nero",
-			"#b02c73",
-			"b02c73",
-			"<h3 class=\"title-head\">",
-			"bianco",
-			"nero",
-			"<figcaption>explanatory caption</figcaption>",
-			"<p>",
-			"<h3>",
-			"btn-default",
-			"type=\"button\"",
-			"figure",
-			"<figure>",
-			"center",
-			"data-position",
-			"upTo-main-menu",
-			"data-position=\"",
-			"button>",
-			"<button",
-			"button",
-			"light",
-			"light-",
-			"-withe"
+			"Sottotiolo"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -851,6 +975,9 @@
 		"regex": false,
 		"replace_history":
 		[
+			"- $pathSlimSite = \"../assets/slim/\"",
+			"- $pathSlimSite = \"../assets/slim/base/\"",
+			"",
 			"<polygon class=\"corsi-text-right-mask\" points=\"10,0.507 10,586.203 10,586 330,530 330,87 9,0\" />",
 			"enable-background=\"new 0 0 630 600\"",
 			"viewBox=\"0 0 630 600\"",
@@ -920,14 +1047,526 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "frontend/Gruntfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2725,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2206,
+								2206
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "frontend/grunt/sass.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2697,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								353,
+								353
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "assets/scss/main.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1473,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								713,
+								713
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "assets/scss/framework.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3737,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3574,
+								3514
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"open_with_edit": true,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 506.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "frontend/bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1486,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 5,
+					"file": "frontend/bower_components/foundation-sites/scss/foundation.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2734,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1476,
+								1461
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 236.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "assets/scss/base/base.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 63,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "assets/scss/components/components.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 136,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								92,
+								92
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"open_with_edit": true,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "assets/scss/helpers/helpers.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 76,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								35,
+								35
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"open_with_edit": true,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "assets/scss/layout/layout.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 35,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								25,
+								25
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"open_with_edit": true,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "assets/scss/molecules/molecules.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 150,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9,
+								9
+							],
+							[
+								27,
+								27
+							],
+							[
+								49,
+								49
+							],
+							[
+								66,
+								66
+							],
+							[
+								84,
+								84
+							],
+							[
+								101,
+								101
+							],
+							[
+								122,
+								122
+							],
+							[
+								144,
+								144
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"open_with_edit": true,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "assets/scss/organism/organism.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 113,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9,
+								9
+							],
+							[
+								28,
+								28
+							],
+							[
+								48,
+								48
+							],
+							[
+								66,
+								66
+							],
+							[
+								84,
+								84
+							],
+							[
+								104,
+								104
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"open_with_edit": true,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "assets/scss/pages/pages.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 49,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								49
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"open_with_edit": true,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "assets/scss/themes/themes.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 49,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								49,
+								49
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"open_with_edit": true,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "assets/scss/vendors/vendors.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 25,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 25.0
+		"height": 23.0
 	},
 	"input":
 	{
@@ -942,11 +1581,25 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			],
+			[
+				2,
+				0,
+				3,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.33,
+			0.66,
 			1.0
 		],
 		"rows":
@@ -968,7 +1621,7 @@
 	"project": "start-web-site.sublime-project",
 	"replace":
 	{
-		"height": 46.0
+		"height": 42.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -977,6 +1630,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"_button-group.scss",
+				"frontend/bower_components/foundation-sites/scss/components/_button-group.scss"
+			],
 			[
 				"main-scss",
 				"naba/scss/ie9-main-menu.scss"
@@ -1358,7 +2015,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},

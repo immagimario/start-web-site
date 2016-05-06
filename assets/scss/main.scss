@@ -1,31 +1,10 @@
 /* ==========================================================================
    Framework
    ========================================================================== */
-@import "foundation";
-@include foundation-global-styles;
-@include foundation-grid;
-@include foundation-typography;
-@include foundation-button;
-@include foundation-forms;
-@include foundation-callout;
-@include foundation-visibility-classes;
-@include foundation-accordion;
-@include foundation-accordion-menu;
-@include foundation-menu;
-@include foundation-tabs;
-@include foundation-dropdown;
-@include foundation-breadcrumbs; 
-@include foundation-reveal;
-@include foundation-switch;
 
-@import "bourbon";
-@import "susy";
-@import "breakpoint";
-
-
-
-
-
+// turn off or on the project framework
+// all the elements, of individual frameworks are managed by framework.scss
+@import "framework";
 
 
 
@@ -33,11 +12,8 @@
 /* ==========================================================================
    Base styles
    ========================================================================== */
+
 @import "base";
-
-
-
-
 
 
 
@@ -57,22 +33,18 @@
 
 
 
-
-
-
-
-
-
 /* ==========================================================================
    Vendor
    ========================================================================== */
 
-
-
-
-
-
-
+//@import "components";
+@import "helpers";
+@import "layout";
+@import "molecules";
+@import "organism";
+@import "pages";
+@import "themes";
+@import "vendors";
 
 
 
@@ -80,12 +52,6 @@
 /* ==========================================================================
    Theme
    ========================================================================== */
-
-
-
-
-
-
 
 
 

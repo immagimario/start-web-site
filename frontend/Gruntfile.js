@@ -47,7 +47,15 @@ module.exports = function(grunt) {
                 breakpoint: ['<%= project.bower %>/breakpoint-sass/stylesheets/'],
 
                 // folder theme
-                base: ['<%= project.scss %>/base/'], 
+                base:       ['<%= project.scss %>/base/'], 
+                components: ['<%= project.scss %>/components/'],
+                helpers:    ['<%= project.scss %>/helpers/'],
+                layout:     ['<%= project.scss %>/layout/'],
+                molecules:  ['<%= project.scss %>/molecules/'],
+                organism:   ['<%= project.scss %>/organism/'],
+                pages:      ['<%= project.scss %>/pages/'],
+                themes:     ['<%= project.scss %>/themes/'],
+                vendors:    ['<%= project.scss %>/vendors/'],
             },
       },
 

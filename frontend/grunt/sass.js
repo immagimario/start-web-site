@@ -8,7 +8,18 @@ module.exports = {
         '<%= project.foundation %>/',
         '<%= project.bourbon %>/',
         '<%= project.susy %>/',
-        '<%= project.breakpoint %>/'
+        '<%= project.breakpoint %>/',
+
+        // import theme
+        '<%= project.base %>/',
+        '<%= project.components %>/',
+        '<%= project.helpers %>/',
+        '<%= project.layout %>/',
+        '<%= project.molecules %>/',
+        '<%= project.organism %>/',
+        '<%= project.pages %>/',
+        '<%= project.themes %>/',
+        '<%= project.vendors %>/',
 
         // import theme
       ],

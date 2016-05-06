@@ -6,6 +6,7 @@ module.exports = {
       loadPath: [
         // import framework
         '<%= project.foundation %>/',
+        '<%= project.bootstrap %>',
         '<%= project.bourbon %>/',
         '<%= project.susy %>/',
         '<%= project.breakpoint %>/',

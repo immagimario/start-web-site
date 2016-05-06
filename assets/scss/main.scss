@@ -2,9 +2,11 @@
    Framework
    ========================================================================== */
 
-// turn off or on the project framework
-// all the elements, of individual frameworks are managed by framework.scss
-@import "framework";
+// uncomment one the following lines for choose a framework
+
+@import "framework-bootstrap";
+
+//@import "framework-foundation";
 
 
 
@@ -14,10 +16,6 @@
    ========================================================================== */
 
 @import "base";
-
-
-
-
 
 /* ==========================================================================
    Browser Upgrade Prompt
@@ -30,33 +28,25 @@
     padding: 0.2em 0;
 }
 
-
-
-
 /* ==========================================================================
    Vendor
    ========================================================================== */
 
-//@import "components";
-@import "helpers";
+@import "components";
 @import "layout";
 @import "molecules";
 @import "organism";
 @import "pages";
-@import "themes";
 @import "vendors";
-
-
-
 
 /* ==========================================================================
    Theme
    ========================================================================== */
 
-
-
-
+@import "themes";
 
 /* ==========================================================================
    Helper
    ========================================================================== */
+
+@import "helpers";

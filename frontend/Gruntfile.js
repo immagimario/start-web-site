@@ -42,6 +42,7 @@ module.exports = function(grunt) {
                 
                 // folder framework
                 foundation: ['<%= project.bower %>/foundation-sites/scss/'],
+                bootstrap: ['<%= project.bower %>/bootstrap-sass/assets/stylesheets/'],
                 bourbon: ['<%= project.bower %>/bourbon/app/assets/stylesheets/'],
                 susy: ['<%= project.bower %>/susy/sass/'],
                 breakpoint: ['<%= project.bower %>/breakpoint-sass/stylesheets/'],

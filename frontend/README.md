@@ -93,7 +93,6 @@ $ npm install grunt-contrib-watch --save-dev
 <script src="//localhost:35729/livereload.js"></script>
 `
 
-
 #### grunt-contrib-sass
 > [ [link plugin](https://github.com/gruntjs/grunt-contrib-sass) ] | Compile Sass to CSS. (This task uses libsass which is a Sass compiler in C++. In contrast to the original Ruby compiler, this one is much faster, but is missing some features, though improving quickly. It also doesn't support Compass. Check out grunt-contrib-sass if you prefer something more stable, but slower.)
 
@@ -150,6 +149,13 @@ $ npm install grunt-modernizr --save-dev
 	$ npm install grunt-postcss pixrem autoprefixer cssnano
 	`
 
+#### grunt-bowercopy
+> [ [bowercopy](https://github.com/timmywil/grunt-bowercopy) ] | Wrangle those bower dependencies and place each one where it's supposed to be.
+
+`
+$ npm install grunt-bowercopy --save-dev
+`
+
 #### grunt-mkdir
 > https://github.com/rubenv/grunt-mkdir | Create directories with Grunt.
 
@@ -183,13 +189,6 @@ $ npm install grunt-contrib-concat --save-dev
 
 `
 $ npm install grunt-contrib-connect --save-dev
-`
-
-#### grunt-bowercopy
-> https://github.com/timmywil/grunt-bowercopy | Wrangle those bower dependencies and place each one where it's supposed to be.
-
-`
-$ npm install grunt-bowercopy --save-dev
 `
 
 #### grunt-contrib-copy

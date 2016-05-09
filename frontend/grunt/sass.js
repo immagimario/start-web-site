@@ -10,6 +10,8 @@ module.exports = {
         '<%= project.bourbon %>/',
         '<%= project.susy %>/',
         '<%= project.breakpoint %>/',
+        '<%= project.normalize %>',
+        '<%= project.motionui %>',
 
         // import theme
         '<%= project.base %>/',
@@ -40,6 +42,7 @@ module.exports = {
     },
     files: {
       '<%= project.stylesheets %>/main.css' : '<%= project.scss %>/main.scss',
+      '<%= project.stylesheets %>/normalize-reset.css' : '<%= project.scss %>/normalize-reset.scss',
       //'<%= project.stylesheets %>/jquery.selectbox.css' : '<%= project.scss %>/jquery.selectbox.scss',
       //'<%= project.stylesheets %>/font-awesome.css' : '<%= project.bower %>/font-awesome/scss/font-awesome.scss',
       //'<%= project.stylesheets %>/slick-theme.css' : '<%= project.bower %>/slick-carousel/slick/slick-theme.scss',

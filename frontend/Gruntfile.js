@@ -46,6 +46,8 @@ module.exports = function(grunt) {
                 bourbon: ['<%= project.bower %>/bourbon/app/assets/stylesheets/'],
                 susy: ['<%= project.bower %>/susy/sass/'],
                 breakpoint: ['<%= project.bower %>/breakpoint-sass/stylesheets/'],
+                normalize: ['<%= project.bower %>/normalize-css/'],
+                motionui: ['<%= project.bower %>/motion-ui/'],
 
                 // folder theme
                 base:       ['<%= project.scss %>/base/'], 

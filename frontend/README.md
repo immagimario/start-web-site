@@ -228,9 +228,8 @@ $ npm install grunt-contrib-clean --save-dev
 `
 
 -
--
 
-<img align="right" height="100" src="http://bower.io/img/bower-logo.png">
+![Grunt Logo](https://raw.githubusercontent.com/immagimario/start-web-site/version-zero/assets/images/readme/bower-logo.png)
 # Installare bower
 
 > [Guide - http://frontendbabel.info/articles/bower-why-frontend-package-manager/ - https://css-tricks.com/whats-great-bower/] Bower, a package manager that makes it easy to manage all your application’s front-end dependencies
@@ -244,11 +243,11 @@ $ npm install -g bower
 * [http://bower.io/search/]
 * http://bower.io/stats/
 
-#### Inizializzazione del package manager bower
+#### initialization of package manager bower
 
 	`
-	// comando per avviare/creare il progetto bower, crea anche il file bower.json
-	// che raccoglie i settaggi e le funzionalità
+	// command to start and create the bower project, also creates the bower.json
+	// file collecting settings and functionality
 	$ bower init
 	? name: project-name
 	? version: 0.0.1
@@ -264,57 +263,56 @@ $ npm install -g bower
 	`
 
 ## Comandi bower
-> Con il comando bower install, sara scaricato il pakage e le sue dipenenze. Esempio, scaricando boostrap, sara scaricato anche jQuery.
+> With bower install command, will be downloaded the package and its dependencies. For example, downloading bootstrap, you will also downloaded jQuery.
 
 ## Framework SASS/SCSS
 
 #### Sassy-maps (con Breakpoint viene scaricato come dipendenza)
-> [https://github.com/at-import/Sassy-Maps] | Sassy Maps adds a variety of functions aimed at helping you work with Sass 3.3 maps much easier.
+> [ [Sass Map](https://github.com/at-import/Sassy-Maps) ] | Sassy Maps adds a variety of functions aimed at helping you work with Sass 3.3 maps much easier.
 
 `
 $ bower install sassy-maps --save-dev
 `
 
 #### Susy
-> [http://susy.oddbird.net/] | Responsive Design — Susy integrates smoothly with Breakpoint for powerful media-query controls. See the documentation for details.
+> [ [Susy Grid](http://susy.oddbird.net/) ] | Responsive Design — Susy integrates smoothly with Breakpoint for powerful media-query controls. See the documentation for details.
 
 `
 $ bower install susy --save
 `
 
 #### breakpoint
-> [https://github.com/at-import/breakpoint] | Breakpoint makes writing media queries in Sass super simple.
+> [ [Breakpoint Framework](https://github.com/at-import/breakpoint) ] | Breakpoint makes writing media queries in Sass super simple.
 
 `
 $ bower install compass-breakpoint --save
 `
 
 #### Bourbon
-> [http://bourbon.io/] | A simple and lightweight mixin library for Sass.
+> [ [Utilty Mixin](http://bourbon.io/) ] | A simple and lightweight mixin library for Sass.
 
 `
 $ bower install bourbon --save
 `
 
-#### motion-ui
-> [site of motion-ui] (https://github.com/zurb/motion-ui) | A Sass library for creating CSS transitions and animations from your friends at ZURB. Originally integrated into Foundation for Apps, the code is now a standalone library, soon to be used by Foundation for Sites and Foundation for Apps.
-
-`
-$ bower install motion-ui --save
-`
-
-#### bi-app-sass (right-to-left)
-> [https://github.com/anasnakawa/bi-app-sass] writing bi-directional stylesheets in sass http://anasnakawa.github.io/bi-app-sass/ 
-
-`
-$ bower install bi-app-sass --save
-`
-
 #### normalize.css
-> A collection of HTML element and attribute style-normalizations http://necolas.github.io/normalize.css/
+> [ [Reset HTML](http://necolas.github.io/normalize.css) ]A collection of HTML element and attribute style-normalizations
 
 `
 $ bower install normalize-css --save
+`
+
+#### motion-ui
+> [Site of Motion-ui] (https://github.com/zurb/motion-ui) | A Sass library for creating CSS transitions and animations from your friends at ZURB. Originally integrated into Foundation for Apps, the code is now a standalone library, soon to be used by Foundation for Sites and Foundation for Apps.
+> 
+> **Browser Support**: Chrome, Firefox, Safari, IE 10+, iOS 8+, Android 4+
+>
+> [ [Demo framework](http://zurb.com/playground/motion-ui) ] 
+> 
+> [ [Documentation framework](https://github.com/zurb/motion-ui/blob/master/docs/classes.md) ] 
+
+`
+$ bower install motion-ui --save
 `
 
 #### placeholder HTML5 for fallback Internet Explorer 
@@ -326,14 +324,14 @@ $ bower install jquery-placeholder --save
 
 ## Framework CSS/JS
 #### Foundation Zurb
-> [http://foundation.zurb.com/] | The most advanced responsive front-end framework in the world.
+> [ [Zurb Foundation](http://foundation.zurb.com/) ] | The most advanced responsive front-end framework in the world.
 
 `
 $ bower install foundation-sites --save
 `
 
-#### Boostrap
-> [http://foundation.zurb.com/] | The most advanced responsive front-end framework in the world.
+#### Bootstrap
+> [ [Bootstrap](http://getbootstrap.com/) ] | The most advanced responsive front-end framework in the world.
 
 `
 $ bower install bootstrap-sass --save
@@ -341,7 +339,7 @@ $ bower install bootstrap-sass --save
 
 ## Framework Standard Web
 #### HTML5 Boilerplate
-> [http://foundation.zurb.com/] | HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.
+> [ [HTML5 Conventions](https://github.com/h5bp/html5-boilerplate) ] | HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.
 
 	`
 	// in questo caso si è obbligati a scaricare attraverso un comando git

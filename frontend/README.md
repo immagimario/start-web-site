@@ -17,8 +17,10 @@ Framework based on Gruntjs and Bower, to create a startup environment of site an
 $ npm init
 `
 
-![Grunt Logo](http://gruntjs.com/img/grunt-logo.png)
-# Gruntjs
+--
+
+![Grunt Logo](https://raw.githubusercontent.com/immagimario/start-web-site/version-zero/assets/images/readme/grunt-logo.png)
+#### Gruntjs
 * [http://gruntjs.com/] Guide
 * [http://gruntjs.com/plugins] Search Pugin
 

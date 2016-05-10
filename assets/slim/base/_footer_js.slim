@@ -2,15 +2,19 @@
 
 == Slim::Template.new($pathSlimSite + '_variables.slim').render
 
-/! jQuery
-	script src="https://code.jquery.com/jquery-1.12.2.min.js"
-
-
-
 /! Plugin js
 
 /! js placeholder HTML5 Placeholder jQuery Plugin
-script src="#{$sitejsv}placeholders.min.js"
+script src="#{$sitejsv}jquery.placeholder.min.js"
+
+/!  Motion UI - A Sass library for creating CSS transitions and animations 
+script src="#{$sitejsv}motion-ui.js"
+
+/!  A global utility for tracking the current input method (mouse, keyboard or touch).
+script src="#{$sitejsv}what-input.min.js"
+
+// boostrap load plugin
+//== Slim::Template.new($pathSlimSite + 'base/_foundation.slim').render
 
 // zurb foundation load plugin
 == Slim::Template.new($pathSlimSite + 'base/_foundation.slim').render

@@ -302,7 +302,7 @@ $ bower install normalize-css --save
 `
 
 #### motion-ui
-> [Site of Motion-ui] (https://github.com/zurb/motion-ui) | A Sass library for creating CSS transitions and animations from your friends at ZURB. Originally integrated into Foundation for Apps, the code is now a standalone library, soon to be used by Foundation for Sites and Foundation for Apps.
+> [ [Site of Motion-ui] (https://github.com/zurb/motion-ui) ] | A Sass library for creating CSS transitions and animations from your friends at ZURB. Originally integrated into Foundation for Apps, the code is now a standalone library, soon to be used by Foundation for Sites and Foundation for Apps.
 > 
 > **Browser Support**: Chrome, Firefox, Safari, IE 10+, iOS 8+, Android 4+
 >
@@ -315,10 +315,27 @@ $ bower install motion-ui --save
 `
 
 #### placeholder HTML5 for fallback Internet Explorer 
-> [link plugin](https://github.com/mathiasbynens/jquery-placeholder) | A jQuery plugin that enables HTML5 placeholder behavior for browsers that aren’t trying hard enough
+> [ [link plugin](https://github.com/mathiasbynens/jquery-placeholder) ] | A jQuery plugin that enables HTML5 placeholder behavior for browsers that aren’t trying hard enough
 
 `
 $ bower install jquery-placeholder --save
+`
+
+#### Font Awesome
+> [ [Font Awesome](https://fortawesome.github.io/Font-Awesome/) ] gives you scalable vector icons that can instantly be customized — size, color, drop shadow, and anything that can be done with the power of CSS.
+>
+> [ [Accessibility](http://fortawesome.github.io/Font-Awesome/accessibility/) ] Icons are symbols that can convey a ton of information and really help people comprehend directions, signs, and interfaces. Its important that we create and use them so that they can reach the largest amount of people possible.
+> 
+> If an icon is not an interactive element | The simplest way to provide a text alternative is to use the aria-hidden="true" attribute on the icon and to include the text with an additional element, such as a <span>, with appropriate CSS to visually hide the element while keeping it accessible to assistive technologies. In addition, you can add a title attribute on the icon to provide a tooltip for sighted mouse users.
+
+
+	` 
+	<i class="fa fa-hourglass" aria-hidden="true" title="60 minutes remain in your exam"></i>
+	<span class="sr-only">60 minutes remain in your exam</span>
+	`
+
+`
+$ bower install font-awesome --save
 `
 
 ## Framework CSS/JS

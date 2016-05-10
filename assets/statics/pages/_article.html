@@ -25,13 +25,15 @@
     <link href="" rel="publisher" />
     <meta content="" itemprop="name" />
     <meta content="" itemprop="description" />
-    <meta content="" itemprop="image" /><!--A modern, HTML5-ready alternative to CSS resets-->
-    <link href="../css/normalize-reset.css" rel="stylesheet" />
-    <!--Plugin css--><!--Theme style-->
+    <meta content="" itemprop="image" /><!--Plugin css--><!--Theme style-->
     <link href="../css/main.css" rel="stylesheet" />
+    <!--Theme widget-->
+    <link href="../css/vendor.css" rel="stylesheet" />
     <!--[if IE 9]>
     <link href="css/ie9.css" rel="stylesheet" type="text/css" />
-    <![endif]--><!--Plugin js-->
+    <![endif]--><!--jQuery-->
+    <script src="../js/vendor/jquery.js"></script>
+    <!--Plugin js-->
     <script src="../js/vendor/modernizr.min.js"></script>
   </head>
   <!--[if IE 9]><body class="article-pages ie9"><![endif]--><!--[if (gt IE 9)|!(IE)]><!-->
@@ -44,25 +46,20 @@
     <header></header>
     <main role="main"></main>
     <footer role="main-footer"></footer>
-    <!--jQuery
-     script src="https://code.jquery.com/jquery-1.12.2.min.js"--><!--Plugin js--><!--js placeholder HTML5 Placeholder jQuery Plugin-->
-    <script src="../js/vendor/placeholders.min.js"></script>
+    <!--Plugin js--><!--js placeholder HTML5 Placeholder jQuery Plugin-->
+    <script src="../js/vendor/jquery.placeholder.min.js"></script>
+    <!-- Motion UI - A Sass library for creating CSS transitions and animations -->
+    <script src="../js/vendor/motion-ui.js"></script>
+    <!-- A global utility for tracking the current input method (mouse, keyboard or touch).-->
+    <script src="../js/vendor/what-input.min.js"></script>
     <!--js foundations-->
     <script src="../js/vendor/foundation/foundation.core.js"></script>
-    <script src="../js/vendor/foundation/foundation.util.mediaQuery.js"></script>
-    <script src="../js/vendor/foundation/foundation.util.keyboard.js"></script>
-    <script src="../js/vendor/foundation/foundation.util.timerAndImageLoader.js"></script>
     <script src="../js/vendor/foundation/foundation.util.box.js"></script>
-    <script src="../js/vendor/foundation/foundation.util.motion.js"></script>
-    <script src="../js/vendor/foundation/foundation.util.nest.js"></script>
+    <script src="../js/vendor/foundation/foundation.util.keyboard.js"></script>
+    <script src="../js/vendor/foundation/foundation.util.mediaQuery.js"></script>
+    <script src="../js/vendor/foundation/foundation.util.timerAndImageLoader.js"></script>
+    <script src="../js/vendor/foundation/foundation.util.touch.js"></script>
     <script src="../js/vendor/foundation/foundation.util.triggers.js"></script>
-    <script src="../js/vendor/foundation/foundation.responsiveMenu.js"></script>
-    <script src="../js/vendor/foundation/foundation.tabs.js"></script>
-    <script src="../js/vendor/foundation/foundation.accordion.js"></script>
-    <script src="../js/vendor/foundation/foundation.accordionMenu.js"></script>
-    <script src="../js/vendor/foundation/foundation.dropdown.js"></script>
-    <script src="../js/vendor/foundation/foundation.abide.js"></script>
-    <script src="../js/vendor/foundation/foundation.reveal.js"></script>
     <!--js call foundations-->
     <script>
       (function($) {

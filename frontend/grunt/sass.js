@@ -5,13 +5,13 @@ module.exports = {
       // Add a (or multiple) Sass import path.
       loadPath: [
         // import framework
-        '<%= project.foundation %>/',
-        '<%= project.bootstrap %>',
-        '<%= project.bourbon %>/',
-        '<%= project.susy %>/',
-        '<%= project.breakpoint %>/',
-        '<%= project.normalize %>',
-        '<%= project.motionui %>',
+        '<%= project.foundation %>/scss/',
+        '<%= project.bootstrap %>/assets/stylesheets',
+        '<%= project.bourbon %>/app/assets/stylesheets/',
+        '<%= project.susy %>/sass/',
+        '<%= project.breakpoint %>/stylesheets/',
+        '<%= project.normalize %>/normalize-css/',
+        '<%= project.motionui %>/motion-ui/',
 
         // import theme
         '<%= project.base %>/',
@@ -22,7 +22,7 @@ module.exports = {
         '<%= project.organism %>/',
         '<%= project.pages %>/',
         '<%= project.themes %>/',
-        '<%= project.vendors %>/',
+        '<%= project.scssvendor %>/',
 
         // import theme
       ],
@@ -42,11 +42,7 @@ module.exports = {
     },
     files: {
       '<%= project.stylesheets %>/main.css' : '<%= project.scss %>/main.scss',
-      '<%= project.stylesheets %>/normalize-reset.css' : '<%= project.scss %>/normalize-reset.scss',
-      //'<%= project.stylesheets %>/jquery.selectbox.css' : '<%= project.scss %>/jquery.selectbox.scss',
-      //'<%= project.stylesheets %>/font-awesome.css' : '<%= project.bower %>/font-awesome/scss/font-awesome.scss',
-      //'<%= project.stylesheets %>/slick-theme.css' : '<%= project.bower %>/slick-carousel/slick/slick-theme.scss',
-      //'<%= project.stylesheets %>/slick.css' : '<%= project.bower %>/slick-carousel/slick/slick.scss'
+      '<%= project.stylesheets %>/vendor.css' : '<%= project.scssvendor %>/vendor.scss',
     }
   },
   // production: {

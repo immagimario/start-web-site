@@ -1,0 +1,12 @@
+- $pathSlimSite = "../assets/slim/"
+
+== Slim::Template.new($pathSlimSite + '_variables.slim').render
+
+/! js foundations
+script src="#{$sitejsv}bootstrap/bootstrap.min.js"
+
+/! js call foundations
+javascript:
+  (function($) {
+      $(document).foundation();
+ }(jQuery));

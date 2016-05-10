@@ -1,0 +1,37 @@
+//
+// Font Awesome
+//
+
+//
+// override default variable
+//
+$fa-font-path: "../fonts/font-awesome" !default;
+
+@import "font-awesome/font-awesome.scss";
+
+
+
+
+//
+// Slick Slider
+//
+
+//
+// override default variable
+//
+$slick-font-path: "../fonts/slick/" !default;
+$slick-font-family: "slick" !default;
+$slick-loader-path: "../images/vendor/slick/" !default;
+$slick-arrow-color: white !default;
+$slick-dot-color: black !default;
+$slick-dot-color-active: $slick-dot-color !default;
+$slick-prev-character: "←" !default;
+$slick-next-character: "→" !default;
+$slick-dot-character: "•" !default;
+$slick-dot-size: 6px !default;
+$slick-opacity-default: 0.75 !default;
+$slick-opacity-on-hover: 1 !default;
+$slick-opacity-not-active: 0.25 !default;
+
+@import "slick/slick-theme";
+@import "slick/slick";

@@ -15,6 +15,7 @@
 	$ bower install
 	$ grunt  (per avviare grunt)
 	$ grunt bowercopy (per copiare gli asset necessari)
+	$ grunt modernizr (It builds js with the basic plugin)
 	` 
 ## La logica della struttura prende spunto da Pattern Atomic Design
 [ [Pattern Lab](http://patternlab.io/) ] è una raccolta di metodi e logiche che consentono di creare progettazione atomiche. 

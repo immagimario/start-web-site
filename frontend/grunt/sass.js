@@ -41,8 +41,8 @@ module.exports = {
       sourcemap: 'auto',
     },
     files: {
-      '<%= project.stylesheets %>/main.css' : '<%= project.scss %>/main.scss',
-      '<%= project.stylesheets %>/vendor.css' : '<%= project.scssvendor %>/vendor.scss',
+      '<%= project.stylesheets %>/src/main.css' : '<%= project.scss %>/main.scss',
+      '<%= project.stylesheets %>/src/vendor.css' : '<%= project.scssvendor %>/vendor.scss',
     }
   },
   // production: {

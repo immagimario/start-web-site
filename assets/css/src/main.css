@@ -3696,12 +3696,9 @@ select[multiple] {
 /* ==========================================================================
    Helper
    ========================================================================== */
-.placeholder {
-  color: #2199e8;
-}
-
 .test {
-  box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.1);
+  display: flex;
+  flex-flow: row wrap;
 }
 
 /*# sourceMappingURL=main.css.map */

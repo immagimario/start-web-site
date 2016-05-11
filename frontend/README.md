@@ -6,6 +6,7 @@ Framework based on Gruntjs and Bower, to create a startup environment of site an
 > There are some things you'll need before you can start working with Bower:
 
 * The command line. 
+* Article [ [The Command Line for Web Design: Automation with Grunt](http://webdesign.tutsplus.com/tutorials/the-command-line-for-web-design-automation-with-grunt--cms-23454) ]
 * [node.js - https://nodejs.org/en/] Node and NPM.
 * Git. [https://git-scm.com/book/it/v1/Per-Iniziare-Installare-Git] Is a packages manager of the Git repos. 
 * Global Installation. Technically you could install it in every project but you'll probably want to have it everywhere.

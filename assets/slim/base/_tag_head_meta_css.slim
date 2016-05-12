@@ -3,12 +3,19 @@
 == Slim::Template.new($pathSlimSite + '_variables.slim').render
 /! Plugin css
 
+- if $folder == "src"
+		/! Theme style
+		link rel="stylesheet" href="#{$sitecsssrc}main.css"
 
-/! Theme style
-link rel="stylesheet" href="#{$sitecss}main.css"
+		/! Theme widget
+		link rel="stylesheet" href="#{$sitecsssrc}vendor.css"
 
-/! Theme widget
-link rel="stylesheet" href="#{$sitecss}vendor.css"
+- else 
+		/! Theme style
+		link rel="stylesheet" href="#{$sitecssdest}main.css"
+
+		/! Theme widget
+		link rel="stylesheet" href="#{$sitecssdest}vendor.css"
 
 /[if IE 9]
 	link  href="css/ie9.css"  rel="stylesheet" type="text/css"

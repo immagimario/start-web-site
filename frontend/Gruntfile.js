@@ -1,6 +1,6 @@
 module.exports = function(grunt) {
-	require('load-grunt-config')(grunt, {
 
+	require('load-grunt-config')(grunt, {
 		data: {
 			project: {
 
@@ -54,4 +54,36 @@ module.exports = function(grunt) {
 		},
 
 	});
+
+
+	//
+	// rimane commentata fino a che si riuscira a fala funzionare tramite load grunt
+	//
+	// grunt.initConfig({
+	// 	pkg: grunt.file.readJSON('package.json'),
+
+	// 	postcss: {
+	// 		options: {
+	// 			map: true, // inline sourcemaps
+
+	// 			processors: [
+	// 				require('autoprefixer')({browsers: 'last 2 versions'}), // add vendor prefixes
+	// 				//require('cssnano')() // minify the result
+	// 			]
+	// 		},
+	// 		dist: {
+	// 			//src: '../assets/css/src/main.css',
+	// 			//dest: '../assets/css/dest/main.css'
+	// 			files: [
+	// 				{
+	// 					'../assets/css/dist/main.css': '../assets/css/src/main.css',
+	// 					'../assets/css/dist/vendor.css': '../assets/css/src/vendor.css',
+	// 				}
+	// 			]
+	// 		}
+	// 	}
+	// });
+	
+	// grunt.loadNpmTasks('grunt-postcss');
+
 };

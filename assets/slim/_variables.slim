@@ -1,6 +1,8 @@
 - $site 		= "../"
 - $assets 	= "assets/"
 - $sitecss 	= $site + "css/"
+- $sitecsssrc 	= $sitecss + "src/"
+- $sitecssdest 	= $sitecss + "dest/"
 - $sitejs 	= $site + "js/"
 - $sitejst 	= $site  + "js/theme/"
 - $sitejsv 	= $site  + "js/vendor/"
@@ -8,5 +10,12 @@
 - $siteimgv 	= $site  + "images/vendor/"
 - $link 		= "http://www.google.it/"
 
+
+// folder css 
+// src for the development
+- $folder = "src"
+// dest for the delivery
+//- $folder = "dest"
+
 // example use
-// == Slim::Template.new($pt + '/file.slim').render
+// == Slim::Template.new($pt + '/nome-file.slim').render

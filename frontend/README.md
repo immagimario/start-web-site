@@ -75,6 +75,8 @@ npm install grunt --save-dev
 > [ [link plugin](https://github.com/firstandthird/load-grunt-config) ] | load-grunt-config is a Grunt library that allows you to break up your Gruntfile config by task. For most small projects a single Gruntfile.js is perfect. But as a project grows, the Gruntfile.js can quickly become unmanagable; this is where load-grunt-config comes in handy.
 > 
 > Creare la cartella "grunt" allo stesso livello del file Gruntfile.js, e creare il file aliases.js per gestire i gruppi di task. E creare un file con il nome del task per ogni pacchetto da configurare.
+> 
+> [ [A good article of this plug-in](http://ericnish.io/blog/how-to-neatly-separate-grunt-files/) ]
 
 `
 npm install -D load-grunt-config

@@ -1,3 +1,5 @@
+**(beta 0.01)**
+
 ## E' presente la documentazione scritta con la modalità "markdown"
 * Come configurare il progetto
 * Elenco dei plugin Grunt e Bower presenti, con relativa spiegazione di installazione e utilizzo

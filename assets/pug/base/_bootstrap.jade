@@ -1,0 +1,12 @@
+- var pathSlimSite = "../assets/slim/"
+
+include ../_variables.jade
+
+/! js foundations
+script src="#{sitejsv}bootstrap/bootstrap.min.js"
+
+/! js call foundations
+javascript:
+  (function($) {
+      $(document).foundation();
+ }(jQuery));

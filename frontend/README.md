@@ -76,7 +76,7 @@ npm install grunt --save-dev
 > 
 > Creare la cartella "grunt" allo stesso livello del file Gruntfile.js, e creare il file aliases.js per gestire i gruppi di task. E creare un file con il nome del task per ogni pacchetto da configurare.
 > 
-> [ [A good article of this plug-in](http://ericnish.io/blog/how-to-neatly-separate-grunt-files/) ]
+> [ [Good article of this plug-in](http://ericnish.io/blog/how-to-neatly-separate-grunt-files/) ]
 
 `
 npm install -D load-grunt-config
@@ -120,6 +120,25 @@ $ gem install slim
 
 `
 $ npm install grunt-slim --save-dev
+`
+
+-
+
+*or pug*
+
+-
+
+#### grunt-contrib-pug
+> [ [link plugin](npm install grunt-contrib-pug --save-dev) ] | Compile Pug Lang to HTML
+
+> Pug – robust, elegant, feature rich template engine for Node.js http://jade-lang.com
+> 
+> Language Web Site: [GitHub](https://github.com/pugjs/pug) - [Docuentation](http://jade-lang.com/)
+> 
+> **The code entered in the import file must be iddented to zero**
+
+`
+$ npm install grunt-contrib-pug --save-dev
 `
 
 > Per utilizzare i partial inserirli all'interno di questo codice di esempio:

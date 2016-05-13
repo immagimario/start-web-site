@@ -1,0 +1,18 @@
+- var pathSlimSite = "../assets/slim/"
+
+include ./_variables.jade
+
+/! js foundations
+script src="#{sitejsv}foundation/foundation.core.js"
+script src="#{sitejsv}foundation/foundation.util.box.js"
+script src="#{sitejsv}foundation/foundation.util.keyboard.js"
+script src="#{sitejsv}foundation/foundation.util.mediaQuery.js"
+script src="#{sitejsv}foundation/foundation.util.timerAndImageLoader.js"
+script src="#{sitejsv}foundation/foundation.util.touch.js"
+script src="#{sitejsv}foundation/foundation.util.triggers.js"
+
+/! js call foundations
+javascript:
+  (function($) {
+      $(document).foundation();
+ }(jQuery));

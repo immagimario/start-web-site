@@ -5,7 +5,11 @@ module.exports = function (grunt, options) {
   return {
     'default': [
       'sass',
-      'slim',
+      'pug',
+      //
+      // or
+      //
+      // 'slim',
       'watch'
     ],
   };

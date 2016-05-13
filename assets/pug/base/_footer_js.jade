@@ -1,0 +1,28 @@
+- var pathSlimSite = "../assets/slim/"
+
+include ./_variables.jade
+
+/! Plugin js
+
+/! js placeholder HTML5 Placeholder jQuery Plugin
+script src="#{sitejsv}jquery.placeholder.min.js"
+
+/!  Motion UI - A Sass library for creating CSS transitions and animations 
+script src="#{sitejsv}motion-ui.js"
+
+/!  A global utility for tracking the current input method (mouse, keyboard or touch).
+script src="#{sitejsv}what-input.min.js"
+
+// boostrap load plugin
+//include ./base/_foundation.jade
+
+// zurb foundation load plugin
+include ./base/_foundation.jade
+
+
+
+/! Theme js
+link rel="stylesheet" href="#{sitejst}main.js"
+
+/! LiveReload Plugin
+script src="//localhost:35729/livereload.js"

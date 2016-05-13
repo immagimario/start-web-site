@@ -1,0 +1,49 @@
+//
+// Example of design and assembling of specific page
+//
+
+- var pathSlimSite = "../assets/slim/"
+
+
+include ./_variables.jade
+
+html.no-js lang="" itemscope="" itemtype="http://schema.org/Article"
+	head
+		title
+			| Title of site
+		meta name="description" content=""
+		meta name="keywords" content=""
+
+		include ./base/_tag_head_meta.jade
+		include ./base/_tag_head_meta_social.jade
+		include ./base/_tag_head_meta_css.jade
+		include ./base/_tag_head_meta_js.jade
+
+
+	// is fundamental that tabulation be aligned with under partial imported
+	// class variable assigned to the body tag
+	- var pagesClass	= "homapage"
+	//
+	// add the browser condition for only Internet Explorer 9
+	// together with .ie9 class for eventually fixes
+	//
+	/[if IE 9 ]
+		<body class="#{pagesClass}#{'-pages'} ie9">
+
+	/![if (gt IE 9)|!(IE)]><!
+	body class="#{pagesClass}#{'-pages'}"
+		/!<![endif]
+				
+		include ./base/_screen-reader.jade
+		
+		include ./base/_browserupdate.jade
+
+		header
+		
+		main role="main"
+
+		footer role="main-footer"
+
+
+		// js
+		include ./base/_footer_js.jade

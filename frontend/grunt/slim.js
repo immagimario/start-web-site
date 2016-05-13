@@ -1,7 +1,7 @@
 module.exports = {
 
-  dist: {                           // Another target 
-    options: {                       // Target options 
+  dist: {                           
+    options: {                      
       pretty: true,
     },
     files: [{

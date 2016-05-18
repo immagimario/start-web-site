@@ -23,6 +23,9 @@
 [ [Pattern Lab](http://patternlab.io/) ] è una raccolta di metodi e logiche che consentono di creare progettazione atomiche. 
 Grazie alla suddivisione degli elementi in strutture componibili, si passa dal "atomo" al template completo.
 
+![Atomic design in one gif](https://raw.githubusercontent.com/immagimario/start-web-site/version-zero/assets/images/readme/atomic-gif-3.gif)
+
+
 ## SASS:
 > La struttura SCSS delle folder e i nomi dei file prendono sempre spunto dal Pattern Atomic Design
 >

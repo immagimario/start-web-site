@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"animation",
+				"animation-name"
+			],
+			[
+				"bo",
+				"border-radius"
+			],
+			[
+				"border-r",
+				"border-radius"
+			],
+			[
+				"bore",
+				"border"
+			],
+			[
 				"pad",
 				"padding-left"
 			],
@@ -50,10 +66,6 @@
 			[
 				"pa",
 				"padding-right"
-			],
-			[
-				"bo",
-				"both"
 			],
 			[
 				"syl",
@@ -236,10 +248,6 @@
 				"last-child"
 			],
 			[
-				"border-r",
-				"border-right"
-			],
-			[
 				"Text",
 				"text-align"
 			],
@@ -324,122 +332,154 @@
 	"buffers":
 	[
 		{
+			"file": "frontend/package.json",
+			"settings":
+			{
+				"buffer_size": 736,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "frontend/grunt/watch.js",
+			"settings":
+			{
+				"buffer_size": 661,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "frontend/grunt/aliases.js",
+			"settings":
+			{
+				"buffer_size": 199,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "frontend/Gruntfile.js",
 			"settings":
 			{
-				"buffer_size": 2725,
+				"buffer_size": 2941,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "frontend/grunt/sass.js",
+			"file": "frontend/grunt/pug.js",
 			"settings":
 			{
-				"buffer_size": 2697,
+				"buffer_size": 1712,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "assets/scss/main.scss",
+			"file": "assets/pug/_variables.jade",
 			"settings":
 			{
-				"buffer_size": 1473,
+				"buffer_size": 650,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "assets/scss/framework.scss",
+			"file": "assets/pug/base/_bootstrap.jade",
 			"settings":
 			{
-				"buffer_size": 3737,
+				"buffer_size": 233,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "frontend/bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss",
+			"file": "assets/pug/base/_browserupdate.jade",
 			"settings":
 			{
-				"buffer_size": 1486,
+				"buffer_size": 248,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "frontend/bower_components/foundation-sites/scss/foundation.scss",
+			"file": "assets/pug/base/_footer_js.jade",
 			"settings":
 			{
-				"buffer_size": 2734,
+				"buffer_size": 673,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "assets/scss/base/base.scss",
+			"file": "assets/pug/base/_foundation.jade",
 			"settings":
 			{
-				"buffer_size": 63,
+				"buffer_size": 612,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "assets/scss/components/components.scss",
+			"file": "assets/pug/base/_tag_head_meta.jade",
 			"settings":
 			{
-				"buffer_size": 136,
+				"buffer_size": 227,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "assets/scss/helpers/helpers.scss",
+			"file": "assets/pug/base/_tag_head_meta_css.jade",
 			"settings":
 			{
-				"buffer_size": 76,
+				"buffer_size": 473,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "assets/scss/layout/layout.scss",
+			"file": "assets/pug/base/_tag_head_meta_icons.jade",
 			"settings":
 			{
-				"buffer_size": 35,
+				"buffer_size": 237,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "assets/scss/molecules/molecules.scss",
+			"file": "assets/pug/base/_tag_head_meta_js.jade",
 			"settings":
 			{
-				"buffer_size": 150,
+				"buffer_size": 163,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "assets/scss/organism/organism.scss",
+			"file": "assets/pug/base/_tag_head_meta_social.jade",
 			"settings":
 			{
-				"buffer_size": 113,
+				"buffer_size": 1056,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "assets/scss/pages/pages.scss",
+			"file": "assets/pug/index.jade",
 			"settings":
 			{
-				"buffer_size": 49,
+				"buffer_size": 132,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "assets/scss/themes/themes.scss",
+			"file": "assets/pug/pages/_article.jade",
 			"settings":
 			{
-				"buffer_size": 49,
+				"buffer_size": 1038,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "assets/scss/vendors/vendors.scss",
+			"file": "assets/pug/pages/_blog.jade",
 			"settings":
 			{
-				"buffer_size": 25,
+				"buffer_size": 1035,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/pug/pages/_homepage.jade",
+			"settings":
+			{
+				"buffer_size": 1057,
 				"line_ending": "Unix"
 			}
 		}
@@ -451,10 +491,18 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 392.0,
-		"last_filter": "slim",
+		"height": 267.0,
+		"last_filter": "insta",
 		"selected_items":
 		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
 			[
 				"slim",
 				"HTML2Slim: Convert selection"
@@ -474,10 +522,6 @@
 			[
 				"liverelo",
 				"LiveReload: Enable/disable plug-ins"
-			],
-			[
-				"java",
-				"Set Syntax: JavaScript"
 			],
 			[
 				"live",
@@ -520,10 +564,6 @@
 				"Set Syntax: JavaScript"
 			],
 			[
-				"insta",
-				"Package Control: Install Package"
-			],
-			[
 				"ruby",
 				"Set Syntax: Ruby Slim"
 			],
@@ -555,34 +595,107 @@
 	[
 		"/Users/mario.montalto/Progetti/start-web-site",
 		"/Users/mario.montalto/Progetti/start-web-site/assets",
-		"/Users/mario.montalto/Progetti/start-web-site/assets/css",
-		"/Users/mario.montalto/Progetti/start-web-site/assets/scss",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/pug",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/statics",
 		"/Users/mario.montalto/Progetti/start-web-site/frontend",
-		"/Users/mario.montalto/Progetti/start-web-site/frontend/bower_components",
-		"/Users/mario.montalto/Progetti/start-web-site/frontend/bower_components/bootstrap-sass",
-		"/Users/mario.montalto/Progetti/start-web-site/frontend/bower_components/bootstrap-sass/assets",
-		"/Users/mario.montalto/Progetti/start-web-site/frontend/bower_components/bootstrap-sass/assets/stylesheets",
-		"/Users/mario.montalto/Progetti/start-web-site/frontend/bower_components/foundation-sites",
-		"/Users/mario.montalto/Progetti/start-web-site/frontend/bower_components/foundation-sites/scss"
+		"/Users/mario.montalto/Progetti/start-web-site/frontend/grunt"
 	],
 	"file_history":
 	[
+		"/Users/mario.montalto/Progetti/start-web-site/assets/pug/index.jade",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/pug/pages/_blog.jade",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/_variables.slim",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/pug/_variables.jade",
+		"/Users/mario.montalto/Progetti/start-web-site/frontend/grunt/slim.js",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/pug/_variables.slim",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/pug/base/_bootstrap.slim",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/pug/base/_browserupdate.slim",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/pug/base/_footer_js.slim",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/pug/base/_foundation.slim",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/pug/base/_tag_head_meta.slim",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/pug/base/_tag_head_meta_css.slim",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/pug/base/_tag_head_meta_icons.slim",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/pug/base/_tag_head_meta_js.slim",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/pug/base/_tag_head_meta_social.slim",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/pug/index.slim",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/pug/pages/_article.slim",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/pug/pages/_blog.slim",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/pug/pages/_homepage.slim",
+		"/Users/mario.montalto/Progetti/scuola-cucina/gruntfile.js",
+		"/Users/mario.montalto/Progetti/start-web-site/frontend/grunt/watch.js",
+		"/Users/mario.montalto/Progetti/start-web-site/frontend/grunt/bowercopy.js",
+		"/Users/mario.montalto/Progetti/start-web-site/frontend/grunt/_slim.js",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/css/dest/main.css",
+		"/Users/mario.montalto/Progetti/start-web-site/frontend/grunt/postcss.js",
+		"/Users/mario.montalto/Progetti/start-web-site/frontend/Gruntfile.js",
+		"/Users/mario.montalto/Progetti/start-web-site/frontend/bower_components/slick-carousel/slick/slick.css",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/scss/main.scss",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/css/dest/vendor.css",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/css/dist/main.css",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/css/src/main.css",
+		"/Users/mario.montalto/Desktop/animation-maz-zinga/style.css",
+		"/Users/mario.montalto/Desktop/animation-maz-zinga/index.html",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/statics/index.html",
+		"/Users/mario.montalto/Progetti/enerzona-omega3/frontend/Gruntfile.js",
+		"/Users/mario.montalto/Progetti/forum-pa/frontend/Gruntfile.js",
+		"/Users/mario.montalto/Progetti/start-web-site/frontend/grunt/sass.js",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/base/_tag_head_meta_css.slim",
 		"/Users/mario.montalto/Progetti/start-web-site/assets/css/main.css",
-		"/Users/mario.montalto/Progetti/start-web-site/frontend/bower_components/foundation-sites/scss/_global.scss",
-		"/Users/mario.montalto/Progetti/start-web-site/frontend/bower_components/foundation-sites/scss/util/_mixins.scss",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/css/dest/style.css",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/css/src/style.css",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/scss/helpers/helpers.scss",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/scss/framework-bootstrap.scss",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/scss/framework-foundation.scss",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/scss/helpers/_variables.scss",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/scss/vendor/vendor.scss",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/scss/helpers/_class.scss",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/scss/vendor/font-awesome/font-awesome.scss",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/pages/_homepage.slim",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/scss/vendor/_slick-slider.scss",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/js/theme/main.js",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/base/_tag_head_meta_js.slim",
+		"/Users/mario.montalto/Progetti/scuola-cucina/slci-bucket/wordpress/wp-content/themes/slci-mobile/frontend/grunt/file-creator.js",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/css/vendor.scss",
+		"/Users/mario.montalto/Progetti/start-web-site/frontend/grunt/modernizr.js",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/base/_footer_js.slim",
+		"/Users/mario.montalto/Progetti/scuola-cucina/slci-bucket/wordpress/wp-content/themes/slci-mobile/assets/slim/template-parts/footer/_footer_js.slim",
+		"/Users/mario.montalto/Progetti/scuola-cucina/slci-bucket/wordpress/wp-content/themes/slci-mobile/assets/slim/header.slim",
+		"/Users/mario.montalto/Progetti/scuola-cucina/slci-bucket/wordpress/wp-content/themes/slci-mobile/assets/slim/template-parts/head/_head.slim",
+		"/Users/mario.montalto/Progetti/scuola-cucina/slci-bucket/wordpress/wp-content/themes/slci-mobile/assets/slim/footer.slim",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/js/vendormodernizr.min.js",
+		"/Users/mario.montalto/Progetti/scuola-cucina/slci-bucket/wordpress/wp-content/themes/slci-mobile/frontend/grunt/modernizr.js",
+		"/private/etc/hosts",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/scss/vendor/slick/slick-theme.scss",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/scss/vendor.scss",
 		"/Users/mario.montalto/Progetti/start-web-site/assets/scss/vendors/vendors.scss",
+		"/Users/mario.montalto/Progetti/start-web-site/frontend/bower.json",
+		"/Users/mario.montalto/Progetti/scuola-cucina/slci-bucket/wordpress/wp-content/themes/slci-mobile/frontend/grunt/bowercopy.js",
+		"/Users/mario.montalto/Progetti/start-web-site/frontend/bower_components/foundation-sites/scss/_global.scss",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/css/normalize-reset.css",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/base/_bootstrap.slim",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/scss/normalize-reset.scss",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/css/normalize.css",
+		"/Users/mario.montalto/Progetti/start-web-site/frontend/bower_components/normalize-css/normalize.scss",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/scss/normalize.scss",
+		"/Users/mario.montalto/Progetti/start-web-site/framework-bootstrap.scss",
+		"/Users/mario.montalto/Progetti/start-web-site/frontend/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_variables.scss",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/scss/base/base.scss",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/scss/themes/themes.scss",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/scss/pages/pages.scss",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/scss/organism/organism.scss",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/scss/molecules/molecules.scss",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/scss/layout/layout.scss",
+		"/Users/mario.montalto/Progetti/start-web-site/assets/scss/components/components.scss",
+		"/Users/mario.montalto/Progetti/start-web-site/frontend/bower_components/foundation-sites/scss/foundation.scss",
+		"/Users/mario.montalto/Progetti/start-web-site/frontend/bower_components/foundation-sites/scss/util/_mixins.scss",
 		"/Users/mario.montalto/Progetti/start-web-site/assets/scss/vendors/_foundation.scss",
 		"/Users/mario.montalto/Progetti/start-web-site/assets/scss/base/_typography.scss",
 		"/Users/mario.montalto/Progetti/start-web-site/assets/scss/base/_screen-reader.scss",
 		"/Users/mario.montalto/Progetti/start-web-site/assets/scss/base/_reset.scss",
-		"/Users/mario.montalto/Progetti/start-web-site/assets/scss/base/base.scss",
-		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/pages/_homepage.slim",
 		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/pages/_blog.slim",
 		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/pages/_article.slim",
 		"/Users/mario.montalto/Progetti/start-web-site/assets/statics/pages/_article.html",
-		"/Users/mario.montalto/Progetti/start-web-site/assets/statics/index.html",
 		"/Users/mario.montalto/Progetti/start-web-site/assets/statics/pages/_blog.html",
-		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/base/_tag_head_meta_css.slim",
 		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/base/_body_class.slim",
 		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/base/_browserupdate.slim",
 		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/base/_screen-reader.slim",
@@ -591,26 +704,15 @@
 		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/pages/_body_class.slim",
 		"/Users/mario.montalto/Progetti/naba/widget-spalla-download-link.php",
 		"/Users/mario.montalto/Progetti/scuola-cucina/slci-bucket/wordpress/wp-content/themes/slci-mobile/assets/slim/index.slim",
-		"/Users/mario.montalto/Progetti/scuola-cucina/slci-bucket/wordpress/wp-content/themes/slci-mobile/assets/slim/template-parts/head/_head.slim",
-		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/_variables.slim",
 		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/base/_tag_head_meta_icons.slim",
 		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/base/_foundation.slim",
-		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/base/_footer_js.slim",
-		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/base/_tag_head_meta_js.slim",
-		"/Users/mario.montalto/Progetti/start-web-site/assets/scss/main.scss",
-		"/Users/mario.montalto/Progetti/start-web-site/frontend/Gruntfile.js",
-		"/Users/mario.montalto/Progetti/start-web-site/frontend/grunt/watch.js",
 		"/Users/mario.montalto/Progetti/scuola-cucina/slci-bucket/wordpress/wp-content/themes/slci-mobile/frontend/grunt/watch.js",
 		"/Users/mario.montalto/Progetti/start-web-site/frontend/grunt/browsersync.js",
-		"/Users/mario.montalto/Progetti/scuola-cucina/slci-bucket/wordpress/wp-content/themes/slci-mobile/assets/slim/footer.slim",
-		"/Users/mario.montalto/Progetti/scuola-cucina/slci-bucket/wordpress/wp-content/themes/slci-mobile/assets/slim/template-parts/footer/_footer_js.slim",
-		"/Users/mario.montalto/Progetti/start-web-site/frontend/grunt/slim.js",
 		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/index.slim",
 		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/base/_tag_head_meta.slim",
 		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/base/_tag_head_meta_social.slim",
 		"/Users/mario.montalto/Progetti/scuola-cucina/slci-bucket/wordpress/wp-content/themes/slci-mobile/assets/scss/style.scss",
 		"/Users/mario.montalto/Progetti/start-web-site/frontend/grunt/aliases.js",
-		"/Users/mario.montalto/Progetti/start-web-site/frontend/grunt/sass.js",
 		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/templates/_blog.slim",
 		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/base/_variables.slim",
 		"/Users/mario.montalto/Progetti/start-web-site/frontend/bower_components/foundation-sites/scss/components/_button-group.scss",
@@ -627,74 +729,7 @@
 		"/Users/mario.montalto/Progetti/scuola-cucina/slci-bucket/wordpress/wp-content/themes/slci-mobile/assets/slim/template-parts/head/_icons_browser.slim",
 		"/Users/mario.montalto/Progetti/scuola-cucina/slci-bucket/wordpress/wp-content/themes/slci-mobile/assets/slim/template-parts/head/_main_menu.slim",
 		"/Users/mario.montalto/Progetti/scuola-cucina/slci-bucket/wordpress/wp-content/themes/slci-mobile/assets/slim/template-parts/head/_top_bar.slim",
-		"/Users/mario.montalto/Progetti/scuola-cucina/slci-bucket/wordpress/wp-content/themes/slci-mobile/assets/slim/template-parts/head/_user_registrato.slim",
-		"/Users/mario.montalto/Progetti/start-web-site/frontend/bower_components/html5-boilerplate/src/doc/extend.md",
-		"/Users/mario.montalto/Progetti/enerzona-omega3/frontend/slim/_head.slim",
-		"/Users/mario.montalto/Progetti/scuola-cucina/slci-bucket/wordpress/wp-content/themes/slci-mobile/assets/slim/variables.slim",
-		"/Users/mario.montalto/Progetti/enerzona-omega3/frontend/slim/articolo_video.slim",
-		"/Users/mario.montalto/Progetti/start-web-site/assets/sass/normalize.scss",
-		"/Users/mario.montalto/Progetti/enerzona-omega3/frontend/slim/_icons_browser.slim",
-		"/Users/mario.montalto/Progetti/enerzona-omega3/frontend/slim/homepage.slim",
-		"/Users/mario.montalto/Google Drive/ui-ux-design-frontend/frontend/ui-design-frontend/assets/slim/index.slim",
-		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/templates/_homepage.slim",
-		"/Users/mario.montalto/Progetti/start-web-site/assets/404.html",
-		"/Users/mario.montalto/Progetti/start-web-site/frontend/bower.json",
-		"/Users/mario.montalto/Progetti/start-web-site/frontend/package.json",
-		"/Users/mario.montalto/Progetti/start-web-site/frontend/bower_components/html5-boilerplate/src/.editorconfig",
-		"/Users/mario.montalto/Desktop/initializr/css/main.css",
-		"/Users/mario.montalto/Desktop/initializr/js/main.js",
-		"/Users/mario.montalto/Google Drive/ui-ux-design-frontend/frontend/bower.json",
-		"/Users/mario.montalto/Progetti/start-web-site/assets/sass/layout/_scaffold.scss",
-		"/Users/mario.montalto/Progetti/start-web-site/assets/sass/layout/_grid.scss",
-		"/Users/mario.montalto/Progetti/start-web-site/assets/sass/components/_thumbnails.scss",
-		"/Users/mario.montalto/Progetti/start-web-site/assets/sass/components/_media.scss",
-		"/Users/mario.montalto/Progetti/start-web-site/assets/sass/README.md",
-		"/Users/mario.montalto/Progetti/start-web-site/assets/sass/pages/_faq.scss",
-		"/Users/mario.montalto/Progetti/start-web-site/assets/sass/themes/_theme.scss",
-		"/Users/mario.montalto/Progetti/start-web-site/assets/sass/themes/_admin.scss",
-		"/Users/mario.montalto/Progetti/start-web-site/assets/sass/vendors/_jquery-ui.scss",
-		"/Users/mario.montalto/Progetti/start-web-site/assets/sass/vendors/_foundation.scss",
-		"/Users/mario.montalto/Progetti/start-web-site/assets/sass/vendors/_bootstrap.scss",
-		"/Users/mario.montalto/Progetti/start-web-site/assets/sass/organism/_sidebar.scss",
-		"/Users/mario.montalto/Progetti/start-web-site/assets/sass/helpers/_functions.scss",
-		"/Users/mario.montalto/Progetti/start-web-site/assets/sass/base/_reset.scss",
-		"/Users/mario.montalto/Progetti/start-web-site/assets/sass/base/_typography.scss",
-		"/Users/mario.montalto/Progetti/start-web-site/assets/sass/components/_buttons.scss",
-		"/Users/mario.montalto/Progetti/start-web-site/assets/sass/components/_carousel.scss",
-		"/Users/mario.montalto/Progetti/start-web-site/assets/sass/components/_cover.scss",
-		"/Users/mario.montalto/Progetti/start-web-site/assets/sass/components/_dropdown.scss",
-		"/Users/mario.montalto/Progetti/start-web-site/assets/sass/components/_navigation.scss",
-		"/Users/mario.montalto/Progetti/start-web-site/assets/sass/helpers/_variables.scss",
-		"/Users/mario.montalto/Progetti/start-web-site/assets/sass/helpers/_mixins.scss",
-		"/Users/mario.montalto/Progetti/yeoman/package.json",
-		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/organisms/_global.slim",
-		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/organisms/_article.slim",
-		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/organisms/_comments.slim",
-		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/organisms/_sections.slim",
-		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/templates/_article.slim",
-		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/organisms/_templates.slim",
-		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/molecules/_components.slim",
-		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/molecules/_messaging.slim",
-		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/molecules/_media.slim",
-		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/molecules/_layout.slim",
-		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/atoms/_tables.slim",
-		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/atoms/_images.slim",
-		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/atoms/_global.slim",
-		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/atoms/_forms.slim",
-		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/molecules/_navigation.slim",
-		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/molecules/_forms.slim",
-		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/molecules/_blocks.slim",
-		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/molecules/_text.slim",
-		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/atoms/_text.slim",
-		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/atoms/_buttons.slim",
-		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/atoms/_text_time.slim",
-		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/atoms/_text_inline_elements.slim",
-		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/atoms/_text_blockquote.slim",
-		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/atoms/_text_paragraph.slim",
-		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/atoms/_text_headings.slim",
-		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/atoms/_visibility.slim",
-		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/atoms/_animations.slim",
-		"/Users/mario.montalto/Progetti/start-web-site/assets/slim/atoms/_fonts.slim"
+		"/Users/mario.montalto/Progetti/scuola-cucina/slci-bucket/wordpress/wp-content/themes/slci-mobile/assets/slim/template-parts/head/_user_registrato.slim"
 	],
 	"find":
 	{
@@ -705,6 +740,10 @@
 		"height": 93.0,
 		"where_history":
 		[
+			"/Users/mario.montalto/Progetti/start-web-site/assets/pug",
+			"/Users/mario.montalto/Progetti/start-web-site",
+			"/Users/mario.montalto/Progetti/start-web-site/frontend/bower_components/foundation-sites/scss",
+			"/Users/mario.montalto/Progetti/start-web-site/frontend/bower_components/bootstrap-sass",
 			"/Users/mario.montalto/Progetti/start-web-site/frontend/bower_components/foundation-sites/scss",
 			"/Users/mario.montalto/Progetti/start-web-site/assets/slim/base",
 			"/Users/mario.montalto/Progetti/start-web-site/",
@@ -828,11 +867,7 @@
 			"/Users/mario.montalto/Progetti/scuola-cucina/slci-bucket/wordpress/wp-content/themes/slci-mobile/assets/scss",
 			"/Users/mario.montalto/Progetti/scuola-cucina/slci-bucket/wordpress/wp-content/themes/slci-d/assets/scss",
 			"/Users/mario.montalto/Progetti/scuola-cucina/slci-bucket/wordpress/wp-content/themes/slci-d/assets/slim",
-			"/Users/mario.montalto/Progetti/scuola-cucina/slci-bucket/wordpress/wp-content/themes/slci-d/assets/css",
-			"/Users/mario.montalto/Progetti/scuola-cucina/slci-bucket/wordpress/wp-content/themes/slci-d/assets/slim",
-			"/Users/mario.montalto/Progetti/scuola-cucina/slci-bucket/wordpress/wp-content/themes/slci-mobile/assets/scss",
-			"/Users/mario.montalto/Progetti/scuola-cucina/slci-bucket/wordpress/wp-content/themes/slci-d/assets/scss",
-			"/Users/mario.montalto/Progetti/scuola-cucina/slci-bucket/wordpress/wp-content/themes/slci-d/assets/slim"
+			"/Users/mario.montalto/Progetti/scuola-cucina/slci-bucket/wordpress/wp-content/themes/slci-d/assets/css"
 		]
 	},
 	"find_state":
@@ -840,6 +875,96 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"<%= project.",
+			"<%= project./",
+			"<%= project.",
+			"extends",
+			"- $",
+			"#{$",
+			"- $pathSlimSite = \"../assets/slim/\"",
+			"pug",
+			"jade",
+			"slim",
+			".slim').render",
+			"== Slim::Template.new($pathSlimSite + '",
+			"== Slim::Template.new",
+			"main",
+			"vendor",
+			"/* Slider */",
+			"main",
+			"dist",
+			"dest",
+			"<%= project.stylesheets %>",
+			"stylesheets",
+			"/Users/mario.montalto/Progetti/start-web-site/css",
+			"../../assets/",
+			"../",
+			"<%= project.stylesheets %>",
+			"<%= project.stylesheets %>/",
+			"> div",
+			"trigger",
+			"#first",
+			"project",
+			"<%= project.stylesheets",
+			"<%= project",
+			"//",
+			"dest",
+			"../assets/css",
+			"main",
+			"<%= project.stylesheets %>",
+			"src",
+			"sitecss",
+			"sitecsssrc",
+			"site",
+			"]",
+			"[",
+			"jssource",
+			"]",
+			"[",
+			"project",
+			"globalConfig",
+			"style",
+			"assets",
+			"folder",
+			"[",
+			"dir",
+			"path",
+			"project",
+			"main",
+			"*",
+			"web/css/",
+			"stylesheets",
+			"shadow",
+			"slick.min.js",
+			"$slick-loader-path",
+			"slick.eot",
+			"teme",
+			"svg",
+			"eot",
+			".'",
+			"':",
+			"jsvendor",
+			"min.jsvendor",
+			"what-input.min.js",
+			"normali",
+			"normal",
+			"color",
+			"%>/',\n",
+			"/']",
+			"',",
+			"/'],",
+			"/',",
+			"motion-ui.js",
+			"foundation.core.js",
+			"/",
+			" : '",
+			"j',",
+			"=",
+			"script src=\"#{$pathTheme}assets/js/vendor/foundation/",
+			"hinge-in-from-top",
+			"$primary-color",
+			"	}",
+			"@if (",
 			"false",
 			"$",
 			"$global-flexbox",
@@ -877,97 +1002,7 @@
 			"+ $assets",
 			"html",
 			"- $pathSlimSite = \"../assets/slim/base/\"",
-			"_variables.slim",
-			"- $pathSlimSite = \"../assets/slim/\"",
-			"style.dev.css",
-			"scss",
-			"assets/",
-			"#{$pathTheme}assets/js/vendor/",
-			"css/",
-			"></script>",
-			"browserupgrade",
-			"tile",
-			"favicon",
-			"fav",
-			"icon",
-			"body",
-			"internet ex",
-			"ie",
-			"pt",
-			"<",
-			"Enerzona Omega3",
-			"\">",
-			"</a></li>",
-			",",
-			".",
-			"\">",
-			"</a></li>",
-			"\">",
-			"</a></li>",
-			"\">",
-			"</a></li>",
-			"\">",
-			"</a></li>",
-			"Up",
-			"\">",
-			"\">O",
-			"</a></li>",
-			"\">",
-			"</a></li>",
-			"\">",
-			"</a></li>",
-			"\">",
-			"</a></li>",
-			"\">",
-			"</a></li>",
-			"\">",
-			"</a></li>",
-			"\">",
-			"ie9",
-			"transform",
-			"transform: rotate(3.3deg);",
-			"transform",
-			"transform: rotate(0deg);",
-			"transform",
-			"transform:",
-			"transform",
-			"trasforme",
-			".general_overlay_menu ",
-			"1280",
-			"header-home-3-news",
-			".footer-homepage",
-			"95",
-			"30",
-			"header-home-3-news-767",
-			"bottom: 20px;",
-			"padding",
-			"00%",
-			"padding",
-			"left: auto;",
-			".text-editor",
-			"text-editor",
-			"mask",
-			"line-height",
-			"top: 10px;",
-			"ct-main",
-			"canlendario-news",
-			"460px",
-			"image-under",
-			"256px",
-			"text-editor",
-			"320px",
-			"text-editor",
-			"320",
-			"1024px",
-			"&.upTo-main-menu",
-			"width:",
-			"80",
-			"text-editor",
-			"}\n",
-			" - ",
-			"text-editor",
-			"span",
-			"Sottotiolo"
+			"_variables.slim"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -975,6 +1010,11 @@
 		"regex": false,
 		"replace_history":
 		[
+			"include",
+			"#{",
+			"- var pathSlimSite = \"../assets/slim/\"",
+			".jade",
+			"extends ./",
 			"- $pathSlimSite = \"../assets/slim/\"",
 			"- $pathSlimSite = \"../assets/slim/base/\"",
 			"",
@@ -1047,61 +1087,55 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "frontend/Gruntfile.js",
+					"file": "frontend/package.json",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2725,
+						"buffer_size": 736,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2206,
-								2206
+								584,
+								584
 							]
 						],
 						"settings":
 						{
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 4,
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 5,
 					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 2,
-			"sheets":
-			[
+				},
 				{
 					"buffer": 1,
-					"file": "frontend/grunt/sass.js",
+					"file": "frontend/grunt/watch.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2697,
+						"buffer_size": 661,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								353,
-								353
+								337,
+								337
 							]
 						],
 						"settings":
@@ -1112,7 +1146,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 4,
@@ -1120,25 +1154,84 @@
 				},
 				{
 					"buffer": 2,
-					"file": "assets/scss/main.scss",
+					"file": "frontend/grunt/aliases.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1473,
+						"buffer_size": 199,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								713,
-								713
+								199,
+								199
 							]
 						],
 						"settings":
 						{
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 18,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "frontend/Gruntfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2941,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1769,
+								1769
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 672.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "frontend/grunt/pug.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1712,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1709,
+								1467
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
@@ -1148,98 +1241,84 @@
 					},
 					"stack_index": 2,
 					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "assets/scss/framework.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3737,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3574,
-								3514
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
-							"open_with_edit": true,
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 506.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "frontend/bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 1486,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 0,
+			"selected": 10,
 			"sheets":
 			[
 				{
 					"buffer": 5,
-					"file": "frontend/bower_components/foundation-sites/scss/foundation.scss",
+					"file": "assets/pug/_variables.jade",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2734,
+						"buffer_size": 650,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1476,
-								1461
+								6,
+								6
+							],
+							[
+								27,
+								27
+							],
+							[
+								53,
+								53
+							],
+							[
+								85,
+								85
+							],
+							[
+								123,
+								123
+							],
+							[
+								163,
+								163
+							],
+							[
+								193,
+								193
+							],
+							[
+								231,
+								231
+							],
+							[
+								270,
+								270
+							],
+							[
+								306,
+								306
+							],
+							[
+								350,
+								350
+							],
+							[
+								434,
+								434
+							],
+							[
+								497,
+								497
 							]
 						],
 						"settings":
 						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 236.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
@@ -1247,115 +1326,108 @@
 				},
 				{
 					"buffer": 6,
-					"file": "assets/scss/base/base.scss",
+					"file": "assets/pug/base/_bootstrap.jade",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 63,
+						"buffer_size": 233,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								171,
+								171
 							]
 						],
 						"settings":
 						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 17,
 					"type": "text"
 				},
 				{
 					"buffer": 7,
-					"file": "assets/scss/components/components.scss",
+					"file": "assets/pug/base/_browserupdate.jade",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 136,
+						"buffer_size": 248,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								92,
-								92
+								3,
+								3
 							]
 						],
 						"settings":
 						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
-							"open_with_edit": true,
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 16,
 					"type": "text"
 				},
 				{
 					"buffer": 8,
-					"file": "assets/scss/helpers/helpers.scss",
+					"file": "assets/pug/base/_footer_js.jade",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 76,
+						"buffer_size": 673,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								35,
-								35
+								3,
+								3
 							]
 						],
 						"settings":
 						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
-							"open_with_edit": true,
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 15,
 					"type": "text"
 				},
 				{
 					"buffer": 9,
-					"file": "assets/scss/layout/layout.scss",
+					"file": "assets/pug/base/_foundation.jade",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 35,
+						"buffer_size": 612,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								25,
-								25
+								3,
+								3
 							]
 						],
 						"settings":
 						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
-							"open_with_edit": true,
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1366,54 +1438,24 @@
 				},
 				{
 					"buffer": 10,
-					"file": "assets/scss/molecules/molecules.scss",
+					"file": "assets/pug/base/_tag_head_meta.jade",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 150,
+						"buffer_size": 227,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								9,
-								9
-							],
-							[
-								27,
-								27
-							],
-							[
-								49,
-								49
-							],
-							[
-								66,
-								66
-							],
-							[
-								84,
-								84
-							],
-							[
-								101,
-								101
-							],
-							[
-								122,
-								122
-							],
-							[
-								144,
-								144
+								3,
+								3
 							]
 						],
 						"settings":
 						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
-							"open_with_edit": true,
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1424,46 +1466,24 @@
 				},
 				{
 					"buffer": 11,
-					"file": "assets/scss/organism/organism.scss",
+					"file": "assets/pug/base/_tag_head_meta_css.jade",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 113,
+						"buffer_size": 473,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								9,
-								9
-							],
-							[
-								28,
-								28
-							],
-							[
-								48,
-								48
-							],
-							[
-								66,
-								66
-							],
-							[
-								84,
-								84
-							],
-							[
-								104,
-								104
+								3,
+								3
 							]
 						],
 						"settings":
 						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
-							"open_with_edit": true,
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1474,26 +1494,24 @@
 				},
 				{
 					"buffer": 12,
-					"file": "assets/scss/pages/pages.scss",
+					"file": "assets/pug/base/_tag_head_meta_icons.jade",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 49,
+						"buffer_size": 237,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								49
+								3,
+								3
 							]
 						],
 						"settings":
 						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
-							"open_with_edit": true,
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1504,26 +1522,24 @@
 				},
 				{
 					"buffer": 13,
-					"file": "assets/scss/themes/themes.scss",
+					"file": "assets/pug/base/_tag_head_meta_js.jade",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 49,
+						"buffer_size": 163,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								49,
-								49
+								3,
+								3
 							]
 						],
 						"settings":
 						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
-							"open_with_edit": true,
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1534,11 +1550,67 @@
 				},
 				{
 					"buffer": 14,
-					"file": "assets/scss/vendors/vendors.scss",
+					"file": "assets/pug/base/_tag_head_meta_social.jade",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 25,
+						"buffer_size": 1056,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3,
+								3
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "assets/pug/index.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 132,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								132,
+								132
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "assets/pug/pages/_article.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1038,
 						"regions":
 						{
 						},
@@ -1551,14 +1623,72 @@
 						],
 						"settings":
 						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "assets/pug/pages/_blog.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1035,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 18,
+					"file": "assets/pug/pages/_homepage.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1057,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								762,
+								760
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
 					"type": "text"
 				}
 			]
@@ -1587,19 +1717,12 @@
 				0,
 				2,
 				1
-			],
-			[
-				2,
-				0,
-				3,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.33,
-			0.66,
+			0.448945947471,
 			1.0
 		],
 		"rows":
@@ -2015,7 +2138,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},

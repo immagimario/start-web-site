@@ -25,7 +25,6 @@ Grazie alla suddivisione degli elementi in strutture componibili, si passa dal "
 
 ![Atomic design in one gif](https://raw.githubusercontent.com/immagimario/start-web-site/version-zero/assets/images/readme/atomic-gif-3.gif)
 
-
 ## SASS:
 > La struttura SCSS delle folder e i nomi dei file prendono sempre spunto dal Pattern Atomic Design
 >
